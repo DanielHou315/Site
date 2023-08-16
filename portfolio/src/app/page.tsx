@@ -9,7 +9,7 @@ export default function Home() {
       
       <div id="home" className="h-screen p-20">
 
-        <div className="relative flex place-content-center p-16 space-x-48">
+        <div className="relative flex place-content-center py-16 space-x-48">
         <Image
             className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert rounded-full p-3"
             src="/index/Huaidian_Photo.jpg"
@@ -19,7 +19,7 @@ export default function Home() {
             priority
           />
 
-          <p className="relative dark self-center p-3">
+          <p className="relative dark self-center p-3 font-shui text-6xl">
             Huaidian Hou
           </p>
         </div>
@@ -70,7 +70,7 @@ export default function Home() {
 
       <div id="about-me" className="h-screen border-t p-4">
         <h1
-          className="self-center text-4xl font-bold text-center font-mono dark:text-white"
+          className="self-center text-6xl font-shui text-center font-mono dark:text-white"
         >
           About Me
         </h1>
@@ -80,7 +80,7 @@ export default function Home() {
 
 
       <div id="contacts" className="h-4/6 border-t p-4">
-        <h1 className="self-center text-4xl font-bold text-center font-mono dark:text-white p-8">
+        <h1 className="self-center text-6xl font-shui text-center font-mono dark:text-white p-8">
           Contacts
         </h1>
 

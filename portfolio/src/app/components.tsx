@@ -23,7 +23,7 @@ export function NavButton({ title, href }: {title: string;href: string;}) {
 
 export function Navbar() {
   return (
-    <div className="fixed top-0 left-0 z-10 w-full group bg-transparent hover:bg-opacity-80 hover:bg-white hover:bg-blend-soft-light border-b border-transparent hover:border-gray-400 transition-transform transform hover:-translate-y-1 p-5">
+    <div className="fixed top-0 left-0 z-10 w-full group bg-white bg-opacity-0 hover:bg-opacity-60 hover:backdrop-blur-blur border-b border-transparent hover:border-gray-400 transition-transform transform hover:-translate-y-1 p-5">
       <div className="container mx-auto flex items-center justify-between">
         <Favicon/>
 
