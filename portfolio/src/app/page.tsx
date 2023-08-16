@@ -5,29 +5,30 @@ import { Navbar, SectionButton, ExternalButton, Footer } from './components'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen w-11/16 flex-col items-center justify-between">
+    <main className="flex w-11/16 flex-col items-center justify-between">
       
-      <div id="home" className="h-screen p-20">
+      <div id="home" className="min-h-screen p-20">
 
-        <div className="relative flex place-content-center py-16 space-x-48">
-        <Image
-            className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert rounded-full p-3"
+        {/* <div className="relative flex place-content-center py-16"> */}
+        <div className="relative flex flex-col md:flex-row items-center justify-center py-16">
+          <Image
+            className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert rounded-full"
             src="/index/Huaidian_Photo.jpg"
             alt="Huaidian Hou"
             width={220}
             height={220}
             priority
           />
-
-          <p className="relative dark self-center p-3 font-shui text-6xl">
-            Huaidian Hou
+        
+          <p className="relative dark self-center px-24 font-shui text-6xl">
+            Huaidian&nbsp;Hou
           </p>
         </div>
 
-        <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
+        <div className="mb-32 grid text-center md:max-w-5xl md:w-full md:mb-0 sm:grid-cols-2 md:text-left md:grid-cols-3">
 
           <SectionButton 
-            title="About Me" 
+            title="About&nbsp;Me" 
             description="Find out everything about me in one minute!"
             link="/#about-me"
           />
@@ -72,7 +73,7 @@ export default function Home() {
         <h1
           className="self-center text-6xl font-shui text-center font-mono dark:text-white"
         >
-          About Me
+          About&nbsp;Me
         </h1>
 
       </div>
