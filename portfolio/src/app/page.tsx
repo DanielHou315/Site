@@ -4,6 +4,7 @@ import { SectionButton, ExternalButton} from '@components/buttons'
 export default function Home() {
   return (
     <main className="flex w-11/16 flex-col items-center justify-between">
+      <link rel="icon" href="/favicon.ico" sizes="any" />
       
       <div id="home" className="min-h-screen p-20">
         <div className="relative flex items-center space-y-8 flex-col lg:flex-row lg:space-y-0 justify-center py-16">

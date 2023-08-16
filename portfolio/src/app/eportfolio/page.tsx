@@ -7,13 +7,22 @@ export default function EPortfolio() {
 
       <div className="min-h-screen p-8 max-w-3xl pt-24">
 
-        {/* Title Section */}
 
+
+
+
+        {/* Title Section */}
 
         <h1 className="self-center text-6xl font-shui text-center font-mono dark:text-white border-b">
           E&nbsp;Portfolio
         </h1>
         <h1 className="text-xl self-left py-4">What cause do you work for?</h1>
+
+
+
+
+
+
 
 
         {/* Pure Pursuit Section */}
@@ -36,6 +45,9 @@ export default function EPortfolio() {
 
 
 
+
+
+
         {/* SAGS Section */}
 
         <div id="p2" className="py-4 border-b">
@@ -48,8 +60,8 @@ export default function EPortfolio() {
             <ArticleCard 
               title="The Road First Heard By" 
               description="COVID-19 was a life-changing (unfortunately for many, literally) period of time..." 
-              imageUrl="/post/eportfolio/sparks-of-agi/sparks-of-agi-1.jpeg"
-              pageUrl="/eportfolio/the-road-first-heard"
+              imageUrl="/post/eportfolio/the-road-first-heard-by/spatial-audio-apple.png"
+              pageUrl="/eportfolio/the-road-first-heard-by"
             />
           </div>
         </div>
@@ -87,7 +99,7 @@ export default function EPortfolio() {
             <ArticleCard 
               title="A Mission is All You Need" 
               description="Stepping into high school with a decade-long love for LEGO, the magnetic allure of the VEX robotics competition team was irresistible..." 
-              imageUrl="/post/eportfolio/a-pure-pursuit/a-pure-pursuit-1.jpeg"
+              imageUrl="/post/eportfolio/a-mission-is-all-you-need/Obsidian-sc.png"
               pageUrl="/eportfolio/a-mission-is-all-you-need"
             />
           </div>
