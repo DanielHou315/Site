@@ -10,7 +10,7 @@ interface CardProps {
 
 export const ArticleCard: React.FC<CardProps> = ({ title, description, imageUrl, pageUrl }) => {
   return (
-    <Link href={pageUrl} className="flex bg-yellow-100 bg-opacity-20 border rounded-lg w-full max-w-xl dark:border-neutral-700 transition-transform transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
+    <Link href={pageUrl} className="flex bg-yellow-50 bg-opacity-20 border rounded-lg w-full max-w-xl dark:border-neutral-700 transition-transform transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
 
       <div className="flex flex-col justify-between flex-grow p-4 break-words">
         <h3 className="font-bold pb-2 text-sm">{title}</h3>

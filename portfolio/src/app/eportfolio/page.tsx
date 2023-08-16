@@ -13,14 +13,15 @@ export default function EPortfolio() {
         <h1 className="self-center text-6xl font-shui text-center font-mono dark:text-white border-b">
           E&nbsp;Portfolio
         </h1>
-        <h1 className="text-xl self-left py-8">What cause do you work for?</h1>
+        <h1 className="text-xl self-left py-4">What cause do you work for?</h1>
 
 
         {/* Pure Pursuit Section */}
 
-        <div id="p1" className="pb-4">
+        <div id="p1" className="py-4 border-b">
+          <h2 className="py-2 font-bold text-md">Chapter I: Sparks of AGI</h2>
           <p id="p1-intro text-sm" className="font-roboto">
-            My journey toward sculpting intelligence for the benefit of our communities has its origins in humble beginnings. Today, as I ardently work to craft artificial intelligence systems that champion accessibility and equity, it's worth reflecting on where it all began: with the initial spark of the Automated GuardIng system (AGI).
+            My journey toward sculpting intelligence for the benefit of our communities has its origins in humble beginnings. Today, as I ardently work to craft artificial intelligence systems that champion accessibility and equity, it's worth reflecting on where it all began: with an initial spark of the Automated GuardIng system (AGI).
           </p>
 
           <div id="p1-card" className="flex place-content-center p-6">
@@ -37,7 +38,8 @@ export default function EPortfolio() {
 
         {/* SAGS Section */}
 
-        <div id="p2" className="pb-4">
+        <div id="p2" className="py-4 border-b">
+          <h2 className="py-2 font-bold text-md">Chapter II: The Road First Heard By</h2>
           <p id="p2-intro">
             From my first brush with automation, I quickly became engrossed in the notion of refining robots towards semi-automation. Yet, it wasn't until a year later that I encountered a profound moment of clarity: I realized that the potential of such technology went beyond just benefiting me—it could tangibly make a difference in the lives of many...
           </p>
@@ -56,7 +58,8 @@ export default function EPortfolio() {
 
         {/* Pure Pursuit Section */}
 
-        <div id="p3" className="pb-4">
+        <div id="p3" className="py-4 border-b">
+          <h2 className="py-2 font-bold text-md">Chapter III: A Pure Pursuit</h2>
           <p id="p3-intro">
             Recognizing the limits of my initial endeavors and driven by the greater cause, I eagerly delved into theoretical work that could facilitate intricate decision-making. As I embarked on my penultimate year at VEX Robotics, post the college application process, I was fueled with a determination to showcase the culmination of my years of learning. It is a Pure Pursuit.
           </p>
@@ -65,7 +68,7 @@ export default function EPortfolio() {
             <ArticleCard 
               title="A Pure Pursuit" 
               description="As senior year dawned, my days were colored with a mix of hands-on tinkering and devouring literature on control theories..." 
-              imageUrl="/post/eportfolio/sparks-of-agi/sparks-of-agi-1.jpeg"
+              imageUrl="/post/eportfolio/a-pure-pursuit/a-pure-pursuit-1.jpeg"
               pageUrl="/eportfolio/a-pure-pursuit"
             />
           </div>
@@ -74,7 +77,8 @@ export default function EPortfolio() {
 
         {/* U-M Section */}
 
-        <div id="p4" className="pb-4">
+        <div id="p4" className="py-4 border-b">
+          <h2 className="py-2 font-bold text-md">Chapter IV: A Mission is All You Need</h2>
           <p id="p4-intro">
             Empowered by my journey with VEX, I embarked on my freshman year at the University of Michigan, fueled by a singular mission: to deepen my knowledge and amplify my impact within my communities. At Michigan, I quickly realized that sometimes, a mission is all you need to push boundaries and explore realms beyond one's wildest dreams.
           </p>
@@ -83,7 +87,7 @@ export default function EPortfolio() {
             <ArticleCard 
               title="A Mission is All You Need" 
               description="Stepping into high school with a decade-long love for LEGO, the magnetic allure of the VEX robotics competition team was irresistible..." 
-              imageUrl="/post/eportfolio/sparks-of-agi/sparks-of-agi-1.jpeg"
+              imageUrl="/post/eportfolio/a-pure-pursuit/a-pure-pursuit-1.jpeg"
               pageUrl="/eportfolio/a-mission-is-all-you-need"
             />
           </div>
@@ -92,12 +96,13 @@ export default function EPortfolio() {
 
         {/* Conclusion Section */}
 
-        <div id="p5" className="space-y-6">
+        <div id="p5" className="space-y-6 py-4">
+          <h2 className="py-2 font-bold text-md">Chapter V: What Comes Next</h2>
           <p>
             From those first sparks in a high school robotics competition to the halls of Michigan Engineering and the real-world application at Minsheng Fintech, my journey has been transformative. Each chapter has been more than just a learning curve—it&apos;s been a revelation, a deep dive into the boundless potential of technology intertwined with the responsibility that accompanies creation. My odyssey into the realm of AI, robotics, and digital systems was not merely about making machines think but about understanding the far-reaching consequences of those thoughts.
           </p>
           <p>
-            As I stand at this juncture, looking both backward at my achievements and forward to the vast horizon of possibilities, I'm reminded of the intrinsic beauty of engineering. It's an art form painted with the brush of mathematics, charged with the duty of equitable service to humanity. As I continue to forge ahead, my commitment is unwavering: to innovate with purpose, to create with conscience, and to always remain a student, eager to learn, adapt, and grow. For in the synthesis of cutting-edge technology and compassionate design lies the future I aspire to build...
+            As I stand at this juncture, looking both backward at my achievements and forward to the vast horizon of possibilities, I'm reminded of the intrinsic beauty of engineering. It's an art form painted with the brush of mathematics, charged with the duty of equitable service to humanity. As I continue to forge ahead, my commitment is unwavering: to innovate with purpose, to create with conscience, and to always remain a student, eager to learn, adapt, and grow. For in the synthesis of cutting-edge technology and compassionate design lies the future I aspire to build as an Michigan Honors Engineer...
           </p>
         </div>
 
@@ -112,7 +117,7 @@ export default function EPortfolio() {
         {/* Credits Section */}
         
         <div id="credits" className="pt-8 border-t">
-          <h3 className="text-xl font-bold text-center pb-4">Article Name Credits</h3>
+          <h3 className="text-lg font-bold text-center pb-4">Article Name Credits</h3>
 
           <p className="py-2 px-8">
             The titles of the short stories in this portfolio are inspired by these awesome authors of academia and liberal arts:

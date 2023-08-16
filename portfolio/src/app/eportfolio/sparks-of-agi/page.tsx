@@ -27,7 +27,7 @@ export default function SparksOfAGI() {
           </p>
 
           <div>
-            <div className="self-center p-6 float-right">
+            <div className="self-center p-6 float-none md:float-right">
               <Image className="rounded-3xl shadow-xl" src="/post/eportfolio/sparks-of-agi/sparks-of-agi-1.jpeg" width={360} height={240} alt="Sparks of AGI"/>
             </div>
             <p className="self-left py-4 font-roboto">
