@@ -1,16 +1,13 @@
 import Image from 'next/image'
-import Link from 'next/link'
 import { Navbar, SectionButton, ExternalButton, Footer } from './components'
 
 
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen w-11/16 flex-col items-center justify-between p-24 bg-gradient-to-tr from-yellow-50 to-pink-50 dark:from-blue-800 dark:to-purple-900">
+    <main className="flex min-h-screen w-11/16 flex-col items-center justify-between">
       
-      <Navbar/>
-
-      <div id="home" className="h-screen">
+      <div id="home" className="h-screen p-20">
 
         <div className="relative flex place-content-center p-16 space-x-48">
         <Image
@@ -93,9 +90,8 @@ export default function Home() {
           <ExternalButton title="Linkedin" description='Connect with me on Linkedin' link='https://linkedin.com/in/huaidian-hou'/>
           <ExternalButton title="E-mail" description='Email me' link='mailto:houhd@umich.edu'/>
         </div>
-      </div>
 
-      <Footer />
+      </div>
     </main>
   )
 }
