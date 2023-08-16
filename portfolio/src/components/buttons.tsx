@@ -4,7 +4,7 @@ export function SectionButton({link, title, description}: {link: string, title: 
   return (
     <Link
       href={link}
-      className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:bg-opacity-30 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 transform transition-transform hover:scale-105"
+      className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:bg-opacity-30 hover:dark:border-neutral-700 hover:dark:bg-neutral-300/20 transform transition-transform hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-lg"
       // target="_blank"
       rel="noopener noreferrer"
     >
@@ -25,7 +25,7 @@ export function ExternalButton({link, title, description}: {link: string, title:
   return (
     <a
       href={link}
-      className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:bg-opacity-30 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 transform transition-transform hover:scale-105"
+      className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:bg-opacity-30 hover:dark:border-neutral-700 hover:dark:bg-neutral-300/20 transform transition-transform hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-lg"
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -48,10 +48,11 @@ export function TextButton({pageUrl, title}: {pageUrl: string, title: string}) {
   return (
     <Link
       href={pageUrl}
-      className="flex max-w-xl min-w-0 group rounded-lg border border-transparent p-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:bg-opacity-30 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 transform transition-transform hover:scale-105"
+      className="flex max-w-xl min-w-0 group rounded-lg border border-transparent p-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:bg-opacity-30 hover:dark:border-neutral-700 hover:dark:bg-neutral-300/20 
+      transform transition-transform hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-lg"
       rel="noopener noreferrer"
     >
-      <p className={`m-0 text-sm opacity-60`}>
+      <p className={`m-0 text-sm opacity-70 dark:opacity-80`}>
         {title}
       </p>
     </Link>
@@ -62,11 +63,11 @@ export function ExternalTextButton({pageUrl, title}: {pageUrl: string, title: st
   return (
     <Link
       href={pageUrl}
-      className="flex max-w-xl group rounded-lg border border-transparent p-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:bg-opacity-30 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 transform transition-transform hover:scale-105"
+      className="flex max-w-xl group rounded-lg border border-transparent p-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:bg-opacity-30 hover:dark:border-neutral-700 hover:dark:bg-neutral-300/20 transform transition-transform hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-lg"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <p className={`m-0 text-sm opacity-60`}>
+      <p className={`m-0 text-sm opacity-60 dark:opacity-80`}>
         {title}
       </p>
     </Link>

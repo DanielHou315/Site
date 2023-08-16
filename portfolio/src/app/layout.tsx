@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <section className="bg-gradient-to-tr from-yellow-50 to-pink-100">
+        <section className="bg-gradient-to-br from-yellow-50 to-pink-100 dark:from-blue-900 dark:to-gray-900">
           <Navbar/>
           {children}
           <Footer/>
