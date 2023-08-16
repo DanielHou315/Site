@@ -4,7 +4,15 @@ export function SectionButton({link, title, description}: {link: string, title: 
   return (
     <Link
       href={link}
-      className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:bg-opacity-30 hover:dark:border-neutral-700 hover:dark:bg-neutral-300/20 transform transition-transform hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-lg"
+      className="group rounded-lg border border-transparent px-5 py-4 
+        transition-colors 
+          hover:border-gray-300 hover:dark:border-neutral-700 
+          hover:bg-gray-100/30 hover:dark:bg-gray-500/30 active:bg-gray-400/20 active:dark:bg-neutral-600/30
+          hover:dark:bg-neutral-300/20 
+        transition-all duration-300 ease-in-out
+        transition-transform transform
+          hover:scale-105 active:scale-100 
+          hover:shadow-md"
       // target="_blank"
       rel="noopener noreferrer"
     >
@@ -25,7 +33,15 @@ export function ExternalButton({link, title, description}: {link: string, title:
   return (
     <a
       href={link}
-      className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:bg-opacity-30 hover:dark:border-neutral-700 hover:dark:bg-neutral-300/20 transform transition-transform hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-lg"
+      className="group rounded-lg border border-transparent px-5 py-4 
+        transition-colors 
+          hover:border-gray-300 hover:dark:border-neutral-700 
+          hover:bg-gray-100/30 hover:dark:bg-gray-500/30 active:bg-gray-400/20 active:dark:bg-neutral-600/30
+          hover:dark:bg-neutral-300/20 
+        transition-all duration-300 ease-in-out
+        transition-transform transform
+          hover:scale-105 active:scale-100 
+          hover:shadow-md"
       target="_blank"
       rel="noopener noreferrer"
     >

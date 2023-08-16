@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export function Favicon() {
   return (
-    <Link href="/#home" className="mr-auto scale-125 opacity-100 transform transition-transform hover:scale-150">
+    <Link href="/#home" className="mr-auto scale-125 opacity-100 transition-all duration-200 transform transition-transform group-hover:translate-y-1 hover:scale-150 active:scale-125">
       <img src="/index/ZR-Logo.svg" alt="Home" className="h-6 w-6" />
     </Link>
   );
@@ -12,7 +12,13 @@ export function NavButton({ title, href }: {title: string;href: string;}) {
   return (
     <Link
       href={href}
-      className="ml-4 px-3 py-2 rounded opacity-0  transition-all duration-300 ease-in-out group-hover:opacity-100 transition-transform group-hover:translate-y-1 hover:scale-105 hover:bg-gray-500/20 hover:dark:bg-neutral-300/20 hover:bg-opacity-30"
+      className="ml-4 px-3 py-2 rounded opacity-0
+        transition-all duration-200 ease-in-out
+          group-hover:opacity-100 
+          hover:bg-gray-500/20 hover:dark:bg-neutral-200/20 active:bg-gray-600/30 active:dark:bg-neutral-400/40
+        transition-transform 
+          group-hover:translate-y-1 
+          hover:scale-105 active:scale-100"
     >
       {title}
     </Link>
@@ -37,52 +43,6 @@ export function Navbar() {
     </div>
   );
 }
-
-
-export function SectionButton({link, title, description}: {link: string, title: string, description:string}) {
-  return (
-    <Link
-      href={link}
-      className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:bg-opacity-30 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 transform transition-transform hover:scale-105"
-      // target="_blank"
-      rel="noopener noreferrer"
-    >
-      <h2 className={`mb-3 text-xl font-semibold`}>
-        {title}{' '}
-        <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-          -&gt;
-        </span>
-      </h2>
-      <p className={`m-0 max-w-[24ch] text-sm opacity-50`}>
-        {description}
-      </p>
-    </Link>
-  )
-}
-
-export function ExternalButton({link, title, description}: {link: string, title: string, description:string}) {
-  return (
-    <a
-      href={link}
-      className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:bg-opacity-30 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 transform transition-transform hover:scale-105"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <h2 className={`mb-3 text-xl font-semibold`}>
-        {title}{' '}
-        <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-          -&gt;
-        </span>
-      </h2>
-      <p className={`m-0 max-w-[24ch] text-sm opacity-50`}>
-        {description}
-      </p>
-    </a>
-  )
-}
-
-
-
 
 export function Footer() {
   return (
