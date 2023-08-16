@@ -1,15 +1,11 @@
 import Image from 'next/image'
-import { Navbar, SectionButton, ExternalButton, Footer } from './components'
-
-
+import { SectionButton, ExternalButton} from '@components/buttons'
 
 export default function Home() {
   return (
     <main className="flex w-11/16 flex-col items-center justify-between">
       
       <div id="home" className="min-h-screen p-20">
-
-        {/* <div className="relative flex place-content-center py-16"> */}
         <div className="relative flex flex-col md:flex-row items-center justify-center py-16">
           <Image
             className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert rounded-full"

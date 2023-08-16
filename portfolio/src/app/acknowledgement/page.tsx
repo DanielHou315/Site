@@ -1,4 +1,4 @@
-import { ExternalButton } from "../components"
+import { ExternalButton } from "@components/buttons"
 
 export default function Acknowledgement() {
   return (
@@ -13,8 +13,8 @@ export default function Acknowledgement() {
 
             <ExternalButton title="Next.js" description='The base Web Framework for this site' link='https://nextjs.org'/>
             <ExternalButton title="TailwindCSS" description='What powers this beautiful interface' link='https://tailwindcss.com'/>
-            <ExternalButton title="Figma" description='Elegant UI prototyping took' link='https://figma.com'/>
-            <ExternalButton title="ChatGPT" description='The Obvious Go-to Tool :)' link='https://chat.openai.com'/>
+            <ExternalButton title="Figma" description='Elegant UI prototyping' link='https://figma.com'/>
+            <ExternalButton title="ChatGPT" description='The Obvious way to tackle beginner Coding Problems' link='https://chat.openai.com'/>
           
           </div>
 
