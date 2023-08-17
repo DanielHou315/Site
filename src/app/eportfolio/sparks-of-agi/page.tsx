@@ -23,7 +23,7 @@ export default function SparksOfAGI() {
           </div>
 
           <p className="py-4 font-roboto">
-            Stepping into high school with a decade-long love for LEGO, the magnetic allure of the VEX robotics competition team was irresistible. After all, our school had proudly held the title of Pennsylvania State Champions for a decade. Riding on the coattails of this legacy, I dived headlong into the mechanics, believing that mimicking the dedication of my predecessors would guarantee success. I immersed myself in the shop, refining and iterating designs, consulting with coaches and senior members. But an epiphany awaited me: there were challenges that mechanics alone couldn't surmount.
+            Stepping into high school with a decade-long love for LEGO, the magnetic allure of the VEX robotics competition team was irresistible. After all, our school had proudly held the title of Pennsylvania State Champions for a decade. Riding on the coattails of this legacy, I dived headlong into the mechanics, believing that mimicking the dedication of my predecessors would guarantee success. I immersed myself in the shop, refining and iterating designs, consulting with coaches and senior members. But an epiphany awaited me: there were challenges that mechanics alone couldn&apos;t surmount.
           </p>
 
           <div>
@@ -31,7 +31,7 @@ export default function SparksOfAGI() {
               <Image className="rounded-3xl shadow-xl" src="/post/eportfolio/sparks-of-agi/sparks-of-agi-1.jpeg" width={360} height={240} alt="Sparks of AGI"/>
             </div>
             <p className="self-left py-4 font-roboto">
-              The year's task seemed straightforward: navigate the field, gather balls, and shoot them towards nine designated goals. Yet, a catch lay in the fine print — at any given time, our robot could only harbor three balls. My initial attempts as a robot operator were, to put it mildly, clumsy. The thrill of the game often left me oblivious to this rule. A jarring reminder came during a local tournament, penalizing me for overstepping the limit. This setback was a catalyst. If my own vigilance was fallible, perhaps I could delegate this task to the robot itself?
+              The year&apos;s task seemed straightforward: navigate the field, gather balls, and shoot them towards nine designated goals. Yet, a catch lay in the fine print — at any given time, our robot could only harbor three balls. My initial attempts as a robot operator were, to put it mildly, clumsy. The thrill of the game often left me oblivious to this rule. A jarring reminder came during a local tournament, penalizing me for overstepping the limit. This setback was a catalyst. If my own vigilance was fallible, perhaps I could delegate this task to the robot itself?
             </p>
 
             <p className="self-left py-4 font-roboto">

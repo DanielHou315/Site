@@ -40,14 +40,14 @@ export default function EPTemplate() {
           </div>
 
           <p className="py-4 font-roboto">
-            With this vision, I embarked on a research journey, meeting with visually impaired individuals to better grasp their needs. Using my foundational knowledge from the "Python for Everybody" course at the University of Michigan, I dived into the mechanics of object recognition. I soon integrated a real-time spatial audio generator, OpenAL, with object detection models. This combination allowed me to perceive and respond to the movement of nearby cars and people through auditory cues.
+            With this vision, I embarked on a research journey, meeting with visually impaired individuals to better grasp their needs. Using my foundational knowledge from the &ldquo;Python for Everybody&rdquo; course at the University of Michigan, I dived into the mechanics of object recognition. I soon integrated a real-time spatial audio generator, OpenAL, with object detection models. This combination allowed me to perceive and respond to the movement of nearby cars and people through auditory cues.
           </p>
           
           <p className="py-4 font-roboto">
-            Testing the prototype on busy streets was eye-opening. While the system initially aimed to filter out noises from multiple moving objects using a rule-based approach, the real world proved unpredictable. My risk-based scoring system was no match for the myriad scenarios on a bustling street. It became clear: to genuinely assist the visually impaired, I'd need to go beyond set rules.
+            Testing the prototype on busy streets was eye-opening. While the system initially aimed to filter out noises from multiple moving objects using a rule-based approach, the real world proved unpredictable. My risk-based scoring system was no match for the myriad scenarios on a bustling street. It became clear: to genuinely assist the visually impaired, I&apos;d need to go beyond set rules.
           </p>
           <p className="py-4 font-roboto">
-            This journey, filled with both accomplishments and setbacks, has become a pivotal chapter in my story. Every challenge I faced, every imperfection I uncovered, reinforced a deeper truth: engineering is not just about problem-solving, but about empathetic innovation. It's about recognizing a need in society and using the tools at one's disposal to craft a solution. It's about the intertwined journey of self-discovery and societal betterment. The street tests might not have gone perfectly, but they reaffirmed my commitment to creating meaningful, inclusive technologies for those who need them most.
+            This journey, filled with both accomplishments and setbacks, has become a pivotal chapter in my story. Every challenge I faced, every imperfection I uncovered, reinforced a deeper truth: engineering is not just about problem-solving, but about empathetic innovation. It&apos;s about recognizing a need in society and using the tools at one&apos;s disposal to craft a solution. It's about the intertwined journey of self-discovery and societal betterment. The street tests might not have gone perfectly, but they reaffirmed my commitment to creating meaningful, inclusive technologies for those who need them most.
           </p>
 
           <div className="min-w-xl">  

@@ -51,7 +51,7 @@ export default function AMission() {
               <p className="text-xs py-2 opacity-60 italic">Image: Obsidian Knowledge Graph built during MSKJ internship</p>
             </div>
             <p className="py-4 font-roboto">
-              The internship turned out to be more than just a design task. It was a treasure trove of learning opportunities. Leveraging Obsidian, I curated an intricate web of knowledge, encapsulating nuances of NLP, ML, and broader AI concepts. As I navigated research papers on Transformer Architecture, BERT, T5, Mixure-of-Expert systems, and more, I marveled at the genius of researchers who pushed boundaries with unmatched creativity. This journey through AI's intricate maze further intensified my passion. I eagerly anticipate plunging deeper into AI research, where I aim to fuse creativity with mathematics, sculpting pioneering systems that enrich our communities.
+              The internship turned out to be more than just a design task. It was a treasure trove of learning opportunities. Leveraging Obsidian, I curated an intricate web of knowledge, encapsulating nuances of NLP, ML, and broader AI concepts. As I navigated research papers on Transformer Architecture, BERT, T5, Mixure-of-Expert systems, and more, I marveled at the genius of researchers who pushed boundaries with unmatched creativity. This journey through AI&apos;s intricate maze further intensified my passion. I eagerly anticipate plunging deeper into AI research, where I aim to fuse creativity with mathematics, sculpting pioneering systems that enrich our communities.
             </p>
           </div>
           

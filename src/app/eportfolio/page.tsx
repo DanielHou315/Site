@@ -30,7 +30,7 @@ export default function EPortfolio() {
         <div id="p1" className="py-4 border-b">
           <h2 className="py-2 font-bold text-md">Chapter I: Sparks of AGI</h2>
           <p id="p1-intro text-sm" className="font-roboto">
-            My journey toward sculpting intelligence for the benefit of our communities has its origins in humble beginnings. Today, as I ardently work to craft artificial intelligence systems that champion accessibility and equity, it's worth reflecting on where it all began: with an initial spark of the Automated GuardIng system (AGI).
+            My journey toward sculpting intelligence for the benefit of our communities has its origins in humble beginnings. Today, as I ardently work to craft artificial intelligence systems that champion accessibility and equity, it&apos;s worth reflecting on where it all began: with an initial spark of the Automated GuardIng system (AGI).
           </p>
 
           <div id="p1-card" className="flex place-content-center p-6">
@@ -53,7 +53,7 @@ export default function EPortfolio() {
         <div id="p2" className="py-4 border-b">
           <h2 className="py-2 font-bold text-md">Chapter II: The Road First Heard By</h2>
           <p id="p2-intro">
-            From my first brush with automation, I quickly became engrossed in the notion of refining robots towards semi-automation. Yet, it wasn't until a year later that I encountered a profound moment of clarity: I realized that the potential of such technology went beyond just benefiting me—it could tangibly make a difference in the lives of many...
+            From my first brush with automation, I quickly became engrossed in the notion of refining robots towards semi-automation. Yet, it wasn&apos;t until a year later that I encountered a profound moment of clarity: I realized that the potential of such technology went beyond just benefiting me—it could tangibly make a difference in the lives of many...
           </p>
 
           <div id="p2-card" className="flex place-content-center p-6">
@@ -92,7 +92,7 @@ export default function EPortfolio() {
         <div id="p4" className="py-4 border-b">
           <h2 className="py-2 font-bold text-md">Chapter IV: A Mission is All You Need</h2>
           <p id="p4-intro">
-            Empowered by my journey with VEX, I embarked on my freshman year at the University of Michigan, fueled by a singular mission: to deepen my knowledge and amplify my impact within my communities. At Michigan, I quickly realized that sometimes, a mission is all you need to push boundaries and explore realms beyond one's wildest dreams.
+            Empowered by my journey with VEX, I embarked on my freshman year at the University of Michigan, fueled by a singular mission: to deepen my knowledge and amplify my impact within my communities. At Michigan, I quickly realized that sometimes, a mission is all you need to push boundaries and explore realms beyond one&apos;s wildest dreams.
           </p>
 
           <div id="p4-card" className="flex place-content-center p-6">
@@ -114,7 +114,7 @@ export default function EPortfolio() {
             From those first sparks in a high school robotics competition to the halls of Michigan Engineering and the real-world application at Minsheng Fintech, my journey has been transformative. Each chapter has been more than just a learning curve—it&apos;s been a revelation, a deep dive into the boundless potential of technology intertwined with the responsibility that accompanies creation. My odyssey into the realm of AI, robotics, and digital systems was not merely about making machines think but about understanding the far-reaching consequences of those thoughts.
           </p>
           <p>
-            As I stand at this juncture, looking both backward at my achievements and forward to the vast horizon of possibilities, I'm reminded of the intrinsic beauty of engineering. It's an art form painted with the brush of mathematics, charged with the duty of equitable service to humanity. As I continue to forge ahead, my commitment is unwavering: to innovate with purpose, to create with conscience, and to always remain a student, eager to learn, adapt, and grow. For in the synthesis of cutting-edge technology and compassionate design lies the future I aspire to build as an Michigan Honors Engineer...
+            As I stand at this juncture, looking both backward at my achievements and forward to the vast horizon of possibilities, I&apos;m reminded of the intrinsic beauty of engineering. It&apos;s an art form painted with the brush of mathematics, charged with the duty of equitable service to humanity. As I continue to forge ahead, my commitment is unwavering: to innovate with purpose, to create with conscience, and to always remain a student, eager to learn, adapt, and grow. For in the synthesis of cutting-edge technology and compassionate design lies the future I aspire to build as an Michigan Honors Engineer...
           </p>
         </div>
 
