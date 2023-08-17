@@ -28,7 +28,7 @@ export default function SparksOfAGI() {
 
           <div>
             <div className="self-center p-6 float-none md:float-right">
-              <Image className="rounded-3xl shadow-xl" src="/static/post/eportfolio/sparks-of-agi/sparks-of-agi-1.jpg" width={360} height={240} alt="Sparks of AGI"/>
+              <img className="rounded-3xl shadow-xl" src="/static/post/eportfolio/sparks-of-agi/sparks-of-agi-1.jpg" width={360} height={240} alt="Sparks of AGI"/>
             </div>
             <p className="self-left py-4 font-roboto">
               The year&apos;s task seemed straightforward: navigate the field, gather balls, and shoot them towards nine designated goals. Yet, a catch lay in the fine print — at any given time, our robot could only harbor three balls. My initial attempts as a robot operator were, to put it mildly, clumsy. The thrill of the game often left me oblivious to this rule. A jarring reminder came during a local tournament, penalizing me for overstepping the limit. This setback was a catalyst. If my own vigilance was fallible, perhaps I could delegate this task to the robot itself?

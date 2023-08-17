@@ -9,13 +9,13 @@ export default function Home() {
       <div id="home" className="min-h-screen p-20">
         <div className="relative flex items-center space-y-8 flex-col lg:flex-row lg:space-y-0 justify-center py-16">
 
-          <Image
+          <img
+            fetchPriority='high'
             className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] rounded-full"
             src="/static/index/Huaidian_Photo.jpg"
             alt="Huaidian Hou"
             width={220}
             height={220}
-            priority
           />
         
           <p className="relative dark self-center px-16 font-shui text-5xl">

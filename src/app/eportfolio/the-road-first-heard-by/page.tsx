@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { ExternalTextButton, PortfolioReturnButton } from '@components/buttons'
 
 export default function EPTemplate() {

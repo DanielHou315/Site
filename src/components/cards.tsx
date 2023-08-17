@@ -25,6 +25,7 @@ export const ArticleCard: React.FC<CardProps> = ({ title, description, imageUrl,
 
       <div className="relative w-40 h-full rounded-r-lg overflow-hidden flex-shrink-0 flex-grow-0">
         <img
+          fetchPriority='high'
           src={imageUrl}
           alt="Image"
           className="absolute w-40 inset-0 h-full object-cover object-center"
