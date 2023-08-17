@@ -83,8 +83,6 @@ jobs:
           path: ./out
       - name: Remove Jekyll
         run: touch ./out/.nojekyll
-      - name: Add CNAME
-        run: touch ./out/CNAME && echo -e "site.danielhou.me" >> ./out/CNAME
 
   # Deployment job
   deploy:
