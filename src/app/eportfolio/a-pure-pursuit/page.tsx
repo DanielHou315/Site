@@ -53,7 +53,7 @@ export default function APurePursuit() {
             </div>
 
             <p className="py-4 font-roboto">
-              Then came the World Championships. With the clock ticking down, our robot still had quirks to iron out. One unforgettable night, with my teammates lost in slumber and the quiet hum of machinery my only companion, I found myself deep-diving into debugging the Pure Pursuit stack. And there, in the dim glow of laptop screens and arena lights, our robot executed a near-flawless trajectory. Nav&apos;s stunned admiration, &ldquo;That was the most beautiful thing I've ever seen!&rdquo; was the cherry on top.
+              Then came the World Championships. With the clock ticking down, our robot still had quirks to iron out. One unforgettable night, with my teammates lost in slumber and the quiet hum of machinery my only companion, I found myself deep-diving into debugging the Pure Pursuit stack. And there, in the dim glow of laptop screens and arena lights, our robot executed a near-flawless trajectory. Nav&apos;s stunned admiration, &ldquo;That was the most beautiful thing I&apos;ve ever seen!&rdquo; was the cherry on top.
             </p>
             <p className="py-4 font-roboto">
               It wasn&apos;t merely about our robot&apos;s movements. It was about the embodiment of life and intelligence in metal and code. It danced, not just as a piece of machinery, but as a living entity, realizing the vision of its creator. I had birthed intelligence. I had crafted life.
