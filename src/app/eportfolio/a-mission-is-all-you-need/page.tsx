@@ -47,7 +47,7 @@ export default function AMission() {
           <b className="py-4">A Deep Dive into State-of-the-Art AI Research</b>
           <div>
             <div className="self-center pl-6 pt-4 float-none md:float-right">
-              <Image className="rounded-3xl shadow-xl overflow-hidden" src="/static/post/eportfolio/a-mission-is-all-you-need/Obsidian-sc.png" alt="Image" width={420} height={180}/>
+              <Image className="rounded-3xl shadow-xl overflow-hidden" src="/static/post/eportfolio/a-mission-is-all-you-need/Obsidian-sc.jpg" alt="Image" width={420} height={180}/>
               <p className="text-xs py-2 opacity-60 italic">Image: Obsidian Knowledge Graph built during MSKJ internship</p>
             </div>
             <p className="py-4 font-roboto">
