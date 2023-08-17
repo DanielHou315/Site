@@ -16,7 +16,7 @@ export default function EPortfolio() {
         <h1 className="self-center text-6xl font-shui text-center font-mono dark:text-white border-b">
           E&nbsp;Portfolio
         </h1>
-        <h1 className="text-xl self-left py-4">What cause do you work for?</h1>
+        <h1 className="text-xl self-left py-4">Tell us about a community or cause that you are passionate about and are part of or want to be involved in.</h1>
 
 
 

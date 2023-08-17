@@ -4,7 +4,7 @@ const shuiFontFace = {
   '@font-face': [
     {
       fontFamily: 'Shui',
-      src: `url('/index/Shui.otf') format('opentype')`,
+      src: `url('/static/index/Shui.otf') format('opentype')`,
       fontWeight: 'normal',
       fontStyle: 'normal',
     },
