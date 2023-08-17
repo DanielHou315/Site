@@ -2,16 +2,14 @@
 
 # dependencies
 /node_modules
-/portfolio/node_modules
 /.pnp
 .pnp.js
-/twcss-port/node_modules
 
 # testing
 /coverage
 
 # next.js
-/portfolio/.next/
+/.next/
 /out/
 
 # production
