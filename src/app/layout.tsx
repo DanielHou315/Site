@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/index/favicon.ico" sizes="any" />
+        <link rel="icon" href="/static/index/favicon.ico" sizes="any" />
       </head>
       <body className={inter.className}>
         <section className="bg-gradient-to-br from-pink-50 to-yellow-50 dark:from-blue-900 dark:to-gray-900">

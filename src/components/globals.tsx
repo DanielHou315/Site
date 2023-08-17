@@ -3,7 +3,7 @@ import Link from 'next/link'
 export function Favicon() {
   return (
     <Link href="/#home" className="mr-auto scale-125 opacity-100 transition-all duration-200 transform transition-transform group-hover:translate-y-1 hover:scale-150 active:scale-125">
-      <img src="/index/ZR-Logo.svg" alt="Home" className="h-6 w-6" />
+      <img src="/static/index/favicon.svg" alt="Home" className="h-6 w-6" />
     </Link>
   );
 }

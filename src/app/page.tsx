@@ -11,7 +11,7 @@ export default function Home() {
 
           <Image
             className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] rounded-full"
-            src="/index/Huaidian_Photo.jpg"
+            src="/static/index/Huaidian_Photo.jpg"
             alt="Huaidian Hou"
             width={220}
             height={220}

@@ -37,7 +37,7 @@ export default function EPortfolio() {
             <ArticleCard 
               title="Sparks of AGI" 
               description="Stepping into high school with a decade-long love for LEGO, the magnetic allure of the VEX robotics..." 
-              imageUrl="/post/eportfolio/sparks-of-agi/sparks-of-agi-1.jpeg"
+              imageUrl="/static/post/eportfolio/sparks-of-agi/sparks-of-agi-1.jpeg"
               pageUrl="/eportfolio/sparks-of-agi"
             />
           </div>
@@ -60,7 +60,7 @@ export default function EPortfolio() {
             <ArticleCard 
               title="The Road First Heard By" 
               description="COVID-19 was a life-changing (unfortunately for many, literally) period of time..." 
-              imageUrl="/post/eportfolio/the-road-first-heard-by/spatial-audio-apple.png"
+              imageUrl="/static/post/eportfolio/the-road-first-heard-by/spatial-audio-apple.png"
               pageUrl="/eportfolio/the-road-first-heard-by"
             />
           </div>
@@ -80,7 +80,7 @@ export default function EPortfolio() {
             <ArticleCard 
               title="A Pure Pursuit" 
               description="As senior year dawned, my days were colored with a mix of hands-on tinkering and devouring literature on control theories..." 
-              imageUrl="/post/eportfolio/a-pure-pursuit/a-pure-pursuit-1.jpeg"
+              imageUrl="/static/post/eportfolio/a-pure-pursuit/a-pure-pursuit-1.jpeg"
               pageUrl="/eportfolio/a-pure-pursuit"
             />
           </div>
@@ -99,7 +99,7 @@ export default function EPortfolio() {
             <ArticleCard 
               title="A Mission is All You Need" 
               description="Stepping into high school with a decade-long love for LEGO, the magnetic allure of the VEX robotics competition team was irresistible..." 
-              imageUrl="/post/eportfolio/a-mission-is-all-you-need/Obsidian-sc.png"
+              imageUrl="/static/post/eportfolio/a-mission-is-all-you-need/Obsidian-sc.png"
               pageUrl="/eportfolio/a-mission-is-all-you-need"
             />
           </div>

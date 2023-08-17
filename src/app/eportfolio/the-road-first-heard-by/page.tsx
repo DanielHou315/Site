@@ -51,7 +51,7 @@ export default function EPTemplate() {
           </p>
 
           <div className="min-w-xl">  
-            <ExternalTextButton pageUrl="/index/SAGS_v1_Technical_Specification.pdf" title="Download SAGS v1 Technical Specification"/>
+            <ExternalTextButton pageUrl="/static/post/the-road-first-heard-by/SAGS_v1_Technical_Specification.pdf" title="Download SAGS v1 Technical Specification"/>
           </div>
 
         </div>
