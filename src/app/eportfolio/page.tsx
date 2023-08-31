@@ -18,10 +18,14 @@ export default function EPortfolio() {
 
 
         <div className="flex flex-col gap-16">
-          <div id="p0">
-            <h2 className="py-2 font-bold text-md">Chapter Zero</h2>
+          <div id="p0" className="space-y-4">
+            <h2 className="py-2 font-bold text-md">Chapter Zero: My Philisophy</h2>
             <p id="p1-intro">
-              My journey toward sculpting intelligence for the benefit of our communities has its origins in humble beginnings. Today, as I ardently work to craft artificial intelligence systems that champion accessibility and equity, it&apos;s worth reflecting on where it all began: with an initial spark of the Automated GuardIng system (AGI).
+              As a Michigan engineer, I have set my lifelong journey toward sculpting intelligence for the benefit of our communities. I aspire to build intelligent robotic systems because robotics is the beautiful combination of digitation and reality. Through digital signal processing, commanding and interacting with a tangible moving robot is the most unreal and exciting thing I can ever imagine. Through the power of physical manipulations, robots can become vast empowerment of humans in various forms and can greatly advance the quality of life and productivity of the human race. This is why I aspire to build intelligent robots for the good of our communities and our world. 
+            </p>
+
+            <p>
+              These ambitious pursuits has its origins in humble beginnings. Through trials of errors, extensive research, and with a daring mind to break set boundaries, I am continuously developing a set of work habits and mentalities customized for future success. Today, as I ardently work to craft artificial intelligence systems that champion accessibility and equity, it is worth reflecting on where my lifelong pursuit of accessibility in artificial intelligence originated.
             </p>
           </div>
 
@@ -41,7 +45,7 @@ export default function EPortfolio() {
             </div>
 
             <p id="p2-intro">
-              From my first brush with automation, I quickly became engrossed in the notion of refining robots towards semi-automation. Yet, it wasn&apos;t until a year later that I encountered a profound moment of clarity: I realized that the potential of such technology went beyond just benefiting me—it could tangibly make a difference in the lives of many...
+              From my first brush with automation, I quickly became immersed in the experience of refining robots towards semi-automation. Yet, it was not until a year later that I extended recognition of the potential of such technology innot tangibly making a difference in the lives of many...
             </p>
           </div>
 
@@ -62,7 +66,7 @@ export default function EPortfolio() {
               />
             </div>
             <p id="p3-intro">
-              Recognizing the limits of my initial endeavors and driven by the greater cause, I eagerly delved into theoretical work that could facilitate intricate decision-making. As I embarked on my penultimate year at VEX Robotics, post the college application process, I was fueled with a determination to showcase the culmination of my years of learning. It is a Pure Pursuit.
+              Recognizing the limits of my initial endeavors and driven by the greater cause, I eagerly delved into theoretical work that could facilitate advanced decision-making. As I embarked on my penultimate year at VEX Robotics, I was fueled with a determination to showcase the culmination of years of learning. It is a Pure Pursuit.
             </p>
           </div>
 
@@ -83,7 +87,7 @@ export default function EPortfolio() {
             </div>
 
             <p id="p4-intro">
-              Empowered by my journey with VEX, I embarked on my freshman year at the University of Michigan, fueled by a singular mission: to deepen my knowledge and amplify my impact within my communities. At Michigan, I quickly realized that sometimes, a mission is all you need to push boundaries and explore realms beyond one&apos;s wildest dreams.
+              Soon, I started on my freshman year at the University of Michigan, fueled by a singular mission: to deepen my knowledge and maximize my commitment within my communities with intelligent systems. At Michigan, I soon realized that sometimes, a mission is all you need to push boundaries and explore realms beyond one&apos;s wildest dreams.
             </p>
           </div>
 
@@ -121,7 +125,7 @@ export default function EPortfolio() {
         <div id="authorship" className="py-8">
           <p><b>By: </b>Huaidian Hou</p>
           <p><b>Released: </b>Aug 16, 2023</p>
-          <p><b>Last Edited: </b>Aug 29, 2023</p>
+          <p><b>Last Edited: </b>Aug 31, 2023</p>
         </div>
 
 

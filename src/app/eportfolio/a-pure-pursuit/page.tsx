@@ -7,7 +7,7 @@ export default function APurePursuit() {
         <h1
           className="self-center text-6xl font-shui text-center font-mono dark:text-white border-b"
         >
-          A Pure Pursuit
+          A Pure Pursuit <sup className="text-3xl">1</sup>
         </h1>
         <br></br>
 
@@ -39,17 +39,23 @@ export default function APurePursuit() {
 
               </div>
 
-              Starting from scratch, I dove deep, crafting C++ class wrappers for each sensor our robot would rely on. Then came the mastery of PID motor control. But the jewel in this engineering crown was the &apos;Pure Pursuit&apos; algorithm, a marvel I had discovered thanks to the brilliance of team 60470S. This gem was interwoven with a positioning system, a project which I was already knee-deep in, harnessing the precision of wheel odometry and the consistency of IMUs. Juggling college applications and late-night coding marathons, I successfully derived the core mathematics for wheel odometry. In that euphoric moment of achievement, Hamilton&apos;s words rang true for me: &ldquo;For all kids out there who dare to dream the impossible.&rdquo;
+              Starting from scratch, I dove deep, crafting C++ class wrappers for each sensor our robot would rely on. Then came the mastery of PID motor control. But the jewel in this engineering crown was the &apos;Pure Pursuit&apos; algorithm, a marvel I had discovered thanks to <a href="https://www.youtube.com/watch?v=eysHlvHFTFw" className="text-blue-600 underline">the brilliance of team 60470S<sup>2</sup></a>. This gem was interwoven with a positioning system, a project which I was already knee-deep in, harnessing the precision of wheel odometry and the consistency of IMUs. Juggling college applications and late-night coding marathons, I successfully derived the core mathematics for wheel odometry. In that euphoric moment of achievement, it was Hamilton&apos;s words that rang true for me: &ldquo;For all kids out there who dare to dream the impossible.&rdquo;
             </p>
           </div>
 
           <b>Trials, Triumphs, and Midnight Epiphanies</b>
-          <div>
+          <div className="py-4">
+
+            <div className="float-none pr-6 py-2 md:float-left">
+              <img fetchPriority='high' className="rounded-3xl shadow-xl overflow-hidden" src="/static/post/eportfolio/a-pure-pursuit/pure_pursuit_lookahead1.png" alt="Image" width={360} height={360}/>
+                <p className="text-xs py-2 opacity-60 italic">Image: Ilustration of the Pure Pursuit Algorithm<sup>3</sup></p>
+            </div>
 
             <div className="float-none pr-6 md:float-left">
               <img fetchPriority='high' className="rounded-3xl shadow-xl overflow-hidden" src="/static/post/eportfolio/a-pure-pursuit/pure_pursuit_core.png" alt="Image" width={360} height={360}/>
                 <p className="text-xs py-2 opacity-60 italic">Image: Core Pure Pursuit Algorithm</p>
             </div>
+
 
             <p className="py-4 font-roboto">
               Then came the World Championships. With the clock ticking down, our robot still had quirks to iron out. One unforgettable night, with my teammates lost in slumber and the quiet hum of machinery my only companion, I found myself deep-diving into debugging the Pure Pursuit stack. And there, in the dim glow of laptop screens and arena lights, our robot executed a near-flawless trajectory. My friend Arnavs stunned admiration, &ldquo;That was the most beautiful thing I&apos;ve ever seen!&rdquo; still rings around my ear as the best compliment ever.
@@ -62,7 +68,7 @@ export default function APurePursuit() {
           <div className="pb-32 h-full">
             <div className="self-center pl-6 pt-4 float-none md:float-right">
               <img fetchPriority='high' className="rounded-3xl shadow-xl overflow-hidden" src="/static/post/eportfolio/a-pure-pursuit/a-pure-pursuit-1.jpg" alt="Image" width={360} height={180}/>
-              <p className="text-xs py-2 opacity-60 italic">Image: Team 169 Robots at World Championship</p>
+              <p className="text-xs py-2 opacity-60 italic">Image: Team 169 Robots at 2022 VEX World Championship</p>
             </div>  
 
             <b className="py-4">A Final Reflection</b>
@@ -76,6 +82,23 @@ export default function APurePursuit() {
         </div>
 
         <PortfolioReturnButton section="p3-card"/>
+
+      {/* Credits Section */}
+            
+      <div id="credits" className="pt-8 border-t">
+        <h3 className="text-lg font-bold text-center pb-4">Credits</h3>
+
+        <p className="py-2 px-8">
+          The title of this story and its content are inspired by or use resoures from these awesome sources: 
+        </p>
+
+        <div className="mb-32 flex-col place-content-center md:max-w-5xl md:w-full md:mb-0 px-4">
+          <ExternalTextButton pageUrl="https://www.ri.cmu.edu/pub_files/pub3/coulter_r_craig_1992_1/coulter_r_craig_1992_1.pdf" title="1. Implementation of the Pure Pursuit Path Tracking Algorithm"/>
+          <ExternalTextButton pageUrl="https://www.youtube.com/watch?v=eysHlvHFTFw" title="2. 315 Prog Skills | VEX Tipping Point 60470S"/>
+          <ExternalTextButton pageUrl="https://www.mathworks.com/help/nav/ug/pure-pursuit-controller.html" title="3. Pure Pursuit Controller - MathWorks"/>
+        </div>
+      </div>
     </div>
+
   )
 }
