@@ -118,14 +118,16 @@ export function FileTextButton({pageUrl, title}: {pageUrl: string, title: string
 
 export function PortfolioReturnButton({section}:{section:string}) {
   return (
-    <Link
-      href={`/eportfolio#${section}`}
-      className="flex max-w-xl group rounded-lg border border-transparent p-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:bg-opacity-30 hover:dark:border-neutral-700 hover:dark:bg-neutral-300/20 transform transition-transform hover:scale-105 active:scale-100 transition-all duration-300 ease-in-out hover:shadow-lg"
-      rel="noopener noreferrer"
-    >
-      <p className={`m-0 text-sm opacity-60 dark:opacity-80`}>
-        <ArrowBack/>&nbsp;Return to ePortfolio to continue reading...
-      </p>
-    </Link>
+    <div className="py-12">
+      <Link
+        href={`/eportfolio#${section}`}
+        className="flex max-w-xl group rounded-lg border border-transparent p-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:bg-opacity-30 hover:dark:border-neutral-700 hover:dark:bg-neutral-300/20 transform transition-transform hover:scale-105 active:scale-100 transition-all duration-300 ease-in-out hover:shadow-lg"
+        rel="noopener noreferrer"
+      >
+        <p className={`m-0 text-sm opacity-70 text-blue-700 dark:opacity-80`}>
+          <ArrowBack/>&nbsp;Return to ePortfolio to continue reading...
+        </p>
+      </Link>
+    </div>
   )
 }

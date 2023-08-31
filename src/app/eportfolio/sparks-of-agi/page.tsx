@@ -3,17 +3,17 @@ import { PortfolioReturnButton, ExternalTextButton } from '@components/buttons'
 
 export default function SparksOfAGI() {
   return (
-    <div>
+    <div className="flex flex-col pt-24">
       <h1
         className="self-center text-6xl font-shui text-center font-mono dark:text-white border-b"
       >
-        Sparks&nbsp;of&nbsp;AGI<sup className="text-xl">1</sup>
+        Sparks&nbsp;of&nbsp;AGI<sup className="text-2xl">1</sup>
       </h1>
 
       <br></br>
 
 
-      <div className="p-4">
+      <div className="py-4">
 
         <div className="pb-4">
           <p><b>By: </b>Huaidian Hou</p>

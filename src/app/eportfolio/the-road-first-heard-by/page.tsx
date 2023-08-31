@@ -1,17 +1,17 @@
 import { FileTextButton, PortfolioReturnButton, ExternalTextButton } from '@components/buttons'
 import { Warning } from '@mui/icons-material'
 
-export default function EPTemplate() {
+export default function RoadAheadPage() {
   return (
-    <div>
+    <div className="flex flex-col pt-24">
       <h1
         className="self-center text-6xl font-shui text-center font-mono dark:text-white border-b"
       >
-        The Road First Heard By<sup className="text-xl">1</sup>
+        The Road First Heard By<sup className="text-2xl">1</sup>
       </h1>
       <br></br>
 
-      <div className="place-content-center max-w-3xl p-4">
+      <div className="place-content-center">
 
         <div className="pb-4">
           <p><b>By: </b>Huaidian Hou</p>
@@ -63,7 +63,7 @@ export default function EPTemplate() {
           Learning the technical challenges ahead, I also realize the valuable reflections gained from this experience. Every challenge I faced, every imperfection I uncovered, reinforced a deeper truth: engineering is not just about problem-solving, but about empathetic innovation. The street tests might not have gone perfectly, but they showed me how the world can be a better place with my contributions and affirmed my commitment to creating meaningful, inclusive technologies for those who need them most.
         </p>
 
-        <div className="min-w-xl">  
+        <div className="min-w-xl pb-24">  
           <FileTextButton pageUrl="/static/post/the-road-first-heard-by/SAGS_v1_Technical_Specification.pdf" title="Download SAGS v1 Technical Specification"/>
         </div>
 
