@@ -106,6 +106,10 @@ export default function EPortfolio() {
                 pageUrl="/eportfolio/a-mission-is-all-you-need"
               />
             </div>
+
+            <p>
+              From those first sparks in a high school robotics competition to the halls of Michigan Engineering, my journey has been transformative. Each chapter has been more than just a learning curve—it&apos;s been a revelation, a deep dive into the boundless potential of technology intertwined with the responsibility that accompanies creation. 
+            </p>
           </div>
 
 
@@ -114,11 +118,18 @@ export default function EPortfolio() {
           <div id="p5" className="space-y-4">
             <h2 className="font-bold text-md">Chapter V: What Comes Next</h2>
             <p>
-              From those first sparks in a high school robotics competition to the halls of Michigan Engineering and the real-world application at Minsheng Fintech, my journey has been transformative. Each chapter has been more than just a learning curve—it&apos;s been a revelation, a deep dive into the boundless potential of technology intertwined with the responsibility that accompanies creation. My odyssey into the realm of AI, robotics, and digital systems was not merely about making machines think but about understanding the far-reaching consequences of those thoughts.
+              From the experience with Spatial Audio Guidance System, I realized the importance of branching out for inspirations. It is exactly a completely unrelated gaming experience that sparked an ideation of a helpful device. With Michigan Engineering Honors seminars, I am aspired to actively meet engineers from different fields and inspire each other to continue to innovate in our respective fields. 
             </p>
+
             <p>
-              As I stand at this juncture, looking both backward at my achievements and forward to the vast horizon of possibilities, I&apos;m reminded of the intrinsic beauty of engineering. It&apos;s an art form painted with the brush of mathematics, charged with the duty of equitable service to humanity. As I continue to forge ahead, my commitment is unwavering: to innovate with purpose, to create with conscience, and to always remain a student, eager to learn, adapt, and grow. For in the synthesis of cutting-edge technology and compassionate design lies the future I aspire to build as an Michigan Honors Engineer...
+              Eager to further gain experiences innovating and experimenting for the good of our communities, I look forward to taking the challenge of an extra capstone project where I will have the freedom to research and realize my dreams in the field of robotics, devising robots and algorithms that makes our campus more accessible for minority groups. 
             </p>
+
+            <p>
+              As I stand at this juncture, looking both backward at my achievements and forward to the horizon of possibilities, I am reminded of the intrinsic mission of engineering. As I continue to forge ahead, my commitment is unwavering: to innovate with purpose, to create with conscience, and to always remain a student, eager to learn, adapt, and grow as an Michigan Honors Engineer.
+            </p>
+
+
           </div>
         </div>
 
