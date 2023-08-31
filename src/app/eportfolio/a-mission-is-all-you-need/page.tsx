@@ -3,8 +3,7 @@ import { PortfolioReturnButton } from '@components/buttons'
 
 export default function AMission() {
   return (
-    <div className="flex w-11/16 flex-col items-center justify-between">
-      <div className="min-h-screen p-8 py-24">
+    <div>
         <h1
           className="self-center text-6xl font-shui text-center font-mono dark:text-white border-b"
         >
@@ -58,8 +57,7 @@ export default function AMission() {
         </div>
 
         <PortfolioReturnButton section="p4-card"/>
-        
-      </div>
+
     </div>
   )
 }

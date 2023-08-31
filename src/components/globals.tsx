@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export function Favicon() {
   return (
-    <Link href="/#home" className="mr-auto scale-125 opacity-100 transition-all duration-200 transform transition-transform group-hover:translate-y-1 hover:scale-150 active:scale-125">
+    <Link href="/" className="mr-auto scale-125 opacity-100 transition-all duration-200 transform transition-transform group-hover:translate-y-1 hover:scale-150 active:scale-125">
       <img fetchPriority='high' src="/static/index/favicon.svg" alt="Home" className="h-6 w-6" />
     </Link>
   );
@@ -32,11 +32,11 @@ export function Navbar() {
         <Favicon/>
 
         <div className="flex items-center justify-end space-x-4">
-          {/*<NavButton title="About" href="/#about-me" />*/}
-          <NavButton title="Projects" href="/projects" />
+          <NavButton title="Home" href="/" />
+          {/*<NavButton title="Projects" href="/projects" />*/}
           <NavButton title="ePortfolio" href="/eportfolio" />
-          <NavButton title="Blogs" href="/blogs" />
-          <NavButton title="Art" href="/art" />
+          {/*<NavButton title="Blogs" href="/blogs" />*/}
+          {/*<NavButton title="Art" href="/art" />*/}
           <NavButton title="Contacts" href="/#contacts" />
         </div>
       </div>
@@ -56,3 +56,6 @@ export function Footer() {
 }
 
 
+export function Credits({title, link, type}: {title: string, link: string, type: number}) {
+  
+}

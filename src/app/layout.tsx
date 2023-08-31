@@ -24,7 +24,11 @@ export default function RootLayout({
       <body className={inter.className}>
         <section className="bg-gradient-to-br from-pink-50 to-yellow-50 dark:from-blue-900 dark:to-gray-900">
           <Navbar/>
-          {children}
+          <div className="flex w-11/16 flex-col items-center justify-between">
+            <div className="min-h-screen p-8 pt-24 max-w-4xl font-serif">
+              {children}
+            </div>
+          </div>
           <Footer/>
         </section>
       </body>

@@ -1,5 +1,6 @@
 import type { Config } from 'tailwindcss'
 
+
 const shuiFontFace = {
   '@font-face': [
     {
