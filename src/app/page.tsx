@@ -127,7 +127,7 @@ export default function Home() {
 
 
             <div className="pt-12">
-              <h2 className="text-bold text-xl">I'm Learning: </h2>
+              <h2 className="text-bold text-xl">I am Learning: </h2>
 
               <div className="flex flex-col text-center">
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 p-6">

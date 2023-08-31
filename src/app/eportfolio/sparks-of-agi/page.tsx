@@ -59,7 +59,7 @@ export default function SparksOfAGI() {
           </p>
 
           <div>
-            <iframe width="720" height="360" src="https://www.youtube.com/embed/Wm7X3IUz6ok" title="169 VEX Turning Point Worlds Reveal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="720" height="360" src="https://www.youtube.com/embed/Wm7X3IUz6ok" title="169 VEX Turning Point Worlds Reveal" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             <p className="text-xs py-2 opacity-60 italic"> 
               Video: World Championship Robot Reveal by my team
             </p>
