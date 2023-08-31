@@ -122,11 +122,11 @@ export default function EPortfolio() {
             </p>
 
             <p>
-              Eager to further gain experiences innovating and experimenting for the good of our communities, I look forward to taking the challenge of an extra capstone project where I will have the freedom to research and realize my dreams in the field of robotics, devising robots and algorithms that makes our campus more accessible for minority groups. 
+              Eager to further gain experiences innovating and experimenting for the good of our communities, I look forward to taking the challenge of an extra capstone project where I will have the freedom to research and realize my dreams in the field of robotics, devising robots and algorithms that assists diabled visitors of our campuses and our communities. 
             </p>
 
             <p>
-              As I stand at this juncture, looking both backward at my achievements and forward to the horizon of possibilities, I am reminded of the intrinsic mission of engineering. As I continue to forge ahead, my commitment is unwavering: to innovate with purpose, to create with conscience, and to always remain a student, eager to learn, adapt, and grow as an Michigan Honors Engineer.
+              As I stand at this juncture, looking both backward at my achievements and forward to the horizon of possibilities, I am reminded of the intrinsic mission of engineering. As I continue to forge ahead, my commitment is unwavering: to innovate with purpose, to always remain a student, eager to learn, adapt, and grow as a roboticist, an Michigan Honors Engineer.
             </p>
 
 
