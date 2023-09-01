@@ -1,5 +1,5 @@
 // import Image from 'next/image'
-import { PortfolioReturnButton, ExternalTextButton } from '@components/buttons'
+import { PortfolioReturnButton, ExternalTextButton, FileTextButton } from '@components/buttons'
 
 export default function AMission() {
   return (
@@ -16,14 +16,12 @@ export default function AMission() {
         <div className="pb-4">
           <p><b>By: </b>Huaidian Hou</p>
           <p><b>Released: </b>Aug 16, 2023</p>
-          <p><b>Last Edited: </b>Aug 16, 2023</p>
+          <p><b>Last Edited: </b>Aug 31, 2023</p>
         </div>
 
         <p className="py-4 font-roboto">
           Arriving at Michigan Engineering was not just a geographical shift for me, but an elevation in my engineering ethos. The cornucopia of ideas and the diverse curriculum was an open invitation to see the world differently.
         </p>
-
-        <b className="py-4">The Transformation Begins</b>
 
         <p className="py-4 font-roboto">
           
@@ -33,12 +31,16 @@ export default function AMission() {
         <div>
           <div className="self-center pr-6 pt-4 float-none md:float-left">
             <img fetchPriority='high' className="rounded-3xl shadow-xl overflow-hidden" src="/static/post/eportfolio/a-mission-is-all-you-need/Engr100_Tech_Drawing.jpg" alt="Image" width={420} height={180}/>
-            <p className="text-xs py-2 opacity-60 italic">Image: Engr 100 Class Project <b>Suds Saver</b> Technical Drawing</p>
+            <p className="text-xs py-2 opacity-60 italic pb-14">Image: Engr 100 Class Project <b>Suds Saver</b> Technical Drawing</p>
           </div>
 
           <p>
             This is why, for my Suds Saver project for Engineering 100 delved into product design, I underscored the often-ignored principles of equity and accessibility in early stages of the development process. For this simple soap box that aims at convenience and germ protection, I led my team to consider the needs of customers who are different from us: elderlies with less strong hands, left-handed users, curious children playing with them, handicapped users, etc. This is why our design took advantage of gravity and magnetic force, using an intricately designed slope, magnetic force, and a smooth plastic living hinge. With these features, the soap to slide into the hands of the user gently, enabling single-handed operation, and avoids potential sudden release of energy by any spring-like mechanism. This design was a piece of demonstration of my determination to focus on equity and accessibility in future research. 
           </p>
+
+          <div className="min-w-xl py-2">  
+            <FileTextButton pageUrl="/static/post/eportfolio/a-mission-is-all-you-need/Huaidian_Hou_Engr_100_Final_Report_Suds_Saver.pdf" title="Download the Engr 100 Suds Saver Project Report"/>
+          </div>
 
         </div>
         
@@ -47,7 +49,6 @@ export default function AMission() {
           Fast forward to summer 2023 at Minsheng Fintech Co. Ltd. (MSKJ), where I was handed the reins to design a search engine component for mobile banking utilizing Large Language Models (LLMs). Empowered by my Michigan experiences, I meticulously scoured the training datasets, identified edge cases to accommodate diverse user behaviors, and championed equity in design. My mission was clear: ensure every user, irrespective of their fluency in banking parlance, received accurate and unbiased search results.
         </p> */}
 
-        <b className="py-4">A Deep Dive into State-of-the-Art AI Research</b>
         <p className="py-4 font-roboto">
           These Michigan experiences are the reasons why I am eager to conduct research in the field of robotics in the name of fairness and accessibility. Before robots enter regular households, many problems await resolution in the design of fair and helpful robots for various home scenarios. For example, conversations should be appropriate in single-parent or orphanaged families, human machine interactions formed from Reinforcement Learning need to incorporate awareness and knowledge of the habits of handicapped users. As I immerse myself in this highly creative and fast-developing field, I aim to fuse creativity with mathematics, sculpting pioneering systems that enrich the accessibility of technology and intelligent systems in our communities. 
         </p>

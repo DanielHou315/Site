@@ -16,7 +16,7 @@ export default function APurePursuit() {
           <div className="pb-4">
             <p><b>By: </b>Huaidian Hou</p>
             <p><b>Released: </b>Aug 16, 2023</p>
-            <p><b>Last Edited: </b>Aug 16, 2023</p>
+            <p><b>Last Edited: </b>Aug 30, 2023</p>
           </div>
 
 

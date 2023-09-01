@@ -63,8 +63,8 @@ export default function RoadAheadPage() {
           Learning the technical challenges ahead, I also realize the valuable reflections gained from this experience. Every challenge I faced, every imperfection I uncovered, reinforced a deeper truth: engineering is not just about problem-solving, but about empathetic innovation. The street tests might not have gone perfectly, but they showed me how the world can be a better place with my contributions and affirmed my commitment to creating meaningful, inclusive technologies for those who need them most.
         </p>
 
-        <div className="min-w-xl pb-24">  
-          <FileTextButton pageUrl="/static/post/the-road-first-heard-by/SAGS_v1_Technical_Specification.pdf" title="Download SAGS v1 Technical Specification"/>
+        <div className="min-w-xl">  
+          <FileTextButton pageUrl="/static/post/eportfolio/the-road-first-heard-by/SAGS_v1_Technical_Specification.pdf" title="Download SAGS v1 Technical Specification"/>
         </div>
 
       </div>
