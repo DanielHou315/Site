@@ -1,5 +1,5 @@
 import { FileTextButton, PortfolioReturnButton, ExternalTextButton } from '@components/buttons'
-import { Warning } from '@mui/icons-material'
+import HeadphonesIcon from '@mui/icons-material/Headphones';
 
 export default function RoadAheadPage() {
   return (
@@ -27,7 +27,7 @@ export default function RoadAheadPage() {
           The outbreak of COVID-19 had profound effects on many of us, marking the first time I truly connected with news from America and deepening my compassion for those less fortunate. One day in sunny spring, as I ambled down a street thinking about a video game, the spatial sound signature of a passing car halted me. It felt weirdly similar to my gaming experiences: the spatial audio feature of the game allowed me to identify directions of the &ldquo;enemy&rdquo; objects, and so does sound in real world. An idea sparked: could I harness this digital technology in that game and reverse the output to make real-life navigation simpler for those who are unable to see the road ahead? This is the origin story of Spatial Audio Navigation System (SAGS). 
         </p>
 
-        <p className="py-2 text-red-500"> <Warning/> Please wear headphone and listen to best experience this video demonstration!</p>
+        <p className="py-2 text-red-500"> <HeadphonesIcon/> Please wear headphone and listen to best experience this video demonstration!</p>
 
         <div className="grid-rows-1 video-responsive row-auto">
           <iframe 
