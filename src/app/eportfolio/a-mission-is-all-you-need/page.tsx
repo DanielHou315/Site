@@ -25,7 +25,7 @@ export default function AMission() {
 
         <p className="py-4 font-roboto">
           
-            Enrollment in Digital Studies 258 showed me the dark underbelly of crude technologies and misuses, from the biases in early facial recognition algorithms to the unauthorized surveillance by police. These triggered my reflections on the responsible development and use of technology. Intelligent systems have greater powers in modern society than most things, judging loan eligibilities, identifying criminal faces, and invisibly doing so much more. Misuse and improper development can lead to serious loan mis-declines, causing family finances to fail. Mis-identification of criminals can also derogate people&quo; credit and fame. Starting to gain awareness of these issues, I am determined to extensively support minority users and promote righteous use of any product I design as a Michigan engineer. 
+            Enrollment in Digital Studies 258 showed me the dark underbelly of crude technologies and misuses, from the biases in early facial recognition algorithms to the unauthorized surveillance by police. These triggered my reflections on the responsible development and use of technology. Intelligent systems have greater powers in modern society than most things, judging loan eligibilities, identifying criminal faces, and invisibly doing so much more. Misuse and improper development can lead to serious loan mis-declines, causing family finances to fail. Mis-identification of criminals can also derogate people&apos;s credit and fame. Starting to gain awareness of these issues, I am determined to extensively support minority users and promote righteous use of any product I design as a Michigan engineer. 
           </p>
 
         <div>
