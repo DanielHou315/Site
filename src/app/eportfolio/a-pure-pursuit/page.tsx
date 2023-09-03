@@ -74,7 +74,7 @@ export default function APurePursuit() {
 
             <b className="py-4">A Final Reflection</b>
             <p className="py-4 ">
-              Now, looking back, I understand that engineering is nott merely a profession. It is an art, an elegant choreography that melds the abstract beauty of mathematics with tangible, impactful creation. That night, amongst algorithms and metallic machinery, I was not just an engineer; I was a maestro, conducting a symphony of innovation.
+              Now, looking back, I understand that engineering is not merely a profession. It is an art, an elegant choreography that melds the abstract beauty of mathematics with tangible, impactful creation. That night, amongst algorithms and metallic machinery, I was not just an engineer; I was a maestro, conducting a symphony of innovation.
             </p>
           </div>
 
