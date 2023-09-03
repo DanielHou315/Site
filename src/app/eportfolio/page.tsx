@@ -101,7 +101,7 @@ export default function EPortfolio() {
             <div id="p4-card" className="flex place-content-center p-6">
               <ArticleCard 
                 title="A Mission is All You Need" 
-                description="Stepping into high school with a decade-long love for LEGO, the magnetic allure of the VEX robotics competition team was irresistible..." 
+                description="Arriving at Michigan Engineering was not just a geographical shift for me, but an elevation in my engineering ethos..." 
                 imageUrl="/static/post/eportfolio/a-mission-is-all-you-need/Obsidian-sc.jpg"
                 pageUrl="/eportfolio/a-mission-is-all-you-need"
               />
