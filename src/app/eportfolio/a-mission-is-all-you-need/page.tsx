@@ -17,7 +17,7 @@ export default function AMission() {
           <p><b>By: </b>Huaidian Hou</p>
           <p><b>Released: </b>Aug 16, 2023</p>
           <p><b>Last Edited: </b>Aug 31, 2023</p>
-        </div>
+        </div>ø
 
         <p className="py-4 font-roboto">
           Arriving at Michigan Engineering was not just a geographical shift for me, but an elevation in my engineering ethos. The cornucopia of ideas and the diverse curriculum was an open invitation to see the world differently.

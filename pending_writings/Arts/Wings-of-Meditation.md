@@ -1,0 +1,1 @@
+This is a piece crafted during the final moments of the first year where the world was completely altered by the COVID-19 pandemic. During quaranteeing and studying-at-home, I have increasingly realized the importance of 'going out into nature" and into the woods. 
