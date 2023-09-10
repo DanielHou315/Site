@@ -27,7 +27,11 @@ export function NavButton({ title, href }: {title: string;href: string;}) {
 
 export function Navbar() {
   return (
-    <div className="fixed top-0 left-0 z-10 w-full group bg-gradient-to-b from-white dark:from-neutral-800 to-transparent transition-all hover:backdrop-blur duration-300 ease-in-out p-7">
+    <div className="fixed top-0 left-0 z-10 w-full group 
+    bg-gradient-to-b from-white dark:from-neutral-100 to-transparent
+    transition-all hover:backdrop-blur
+    duration-300 ease-in-out p-7">
+      {/* hover:backdrop-blur */}
       <div className="container mx-auto flex items-center justify-between">
         <Favicon/>
 

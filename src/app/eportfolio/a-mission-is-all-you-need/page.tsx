@@ -17,7 +17,7 @@ export default function AMission() {
           <p><b>By: </b>Huaidian Hou</p>
           <p><b>Released: </b>Aug 16, 2023</p>
           <p><b>Last Edited: </b>Aug 31, 2023</p>
-        </div>ø
+        </div>
 
         <p className="py-4 font-roboto">
           Arriving at Michigan Engineering was not just a geographical shift for me, but an elevation in my engineering ethos. The cornucopia of ideas and the diverse curriculum was an open invitation to see the world differently.
@@ -27,15 +27,16 @@ export default function AMission() {
           
             Enrollment in Digital Studies 258 showed me the dark underbelly of crude technologies and misuses, from the biases in early facial recognition algorithms to the unauthorized surveillance by police. These triggered my reflections on the responsible development and use of technology. Intelligent systems have greater powers in modern society than most things, judging loan eligibilities, identifying criminal faces, and invisibly doing so much more. Misuse and improper development can lead to serious loan mis-declines, causing family finances to fail. Mis-identification of criminals can also derogate people&apos;s credit and fame. Starting to gain awareness of these issues, I am determined to extensively support minority users and promote righteous use of any product I design as a Michigan engineer. 
           </p>
+          <ExternalTextButton title="Experience my Digital 258 Final Project: Analytics Reflector" pageUrl="https://reflector.danielhou.me"/>
 
-        <div>
+        <div className="pt-4">
           <div className="self-center pr-6 pt-4 float-none md:float-left">
             <img fetchPriority='high' className="rounded-3xl shadow-xl overflow-hidden" src="/static/post/eportfolio/a-mission-is-all-you-need/Engr100_Tech_Drawing.jpg" alt="Image" width={420} height={180}/>
             <p className="text-xs py-2 opacity-60 italic pb-14">Image: Engr 100 Class Project <b>Suds Saver</b> Technical Drawing</p>
           </div>
 
           <p>
-            This is why, for my Suds Saver project for Engineering 100 delved into product design, I underscored the often-ignored principles of equity and accessibility in early stages of the development process. For this simple soap box that aims at convenience and germ protection, I led my team to consider the needs of customers who are different from us: elderlies with less strong hands, left-handed users, curious children playing with them, handicapped users, etc. This is why our design took advantage of gravity and magnetic force, using an intricately designed slope, magnetic force, and a smooth plastic living hinge. With these features, the soap to slide into the hands of the user gently, enabling single-handed operation, and avoids potential sudden release of energy by any spring-like mechanism. This design was a piece of demonstration of my determination to focus on equity and accessibility in future research. 
+            This is why, for my Suds Saver project for Engineering 100 delved into product design, I underscored the often-ignored principles of equity and accessibility in early stages of the development process. For this simple soap box that aims at convenience and germ protection, I led my team to consider the needs of customers who are different from us: elderlies with less strong hands, left-handed users, curious children playing with them, handicapped users, etc. This is why our design took advantage of gravity, using an intricately designed slope, magnetic force, and a smooth plastic living hinge. With these features, the soap to slide into the hands of the user gently, enabling single-handed operation, and avoids potential sudden release of energy by any spring-like mechanism. This design was a piece of demonstration of my determination to focus on equity and accessibility in future research. 
           </p>
 
           <div className="min-w-xl py-2">  
@@ -50,7 +51,7 @@ export default function AMission() {
         </p> */}
 
         <p className="py-4 font-roboto">
-          These Michigan experiences are the reasons why I am eager to conduct research in the field of robotics in the name of fairness and accessibility. Before robots enter regular households, many problems await resolution in the design of fair and helpful robots for various home scenarios. For example, conversations should be appropriate in single-parent or orphanaged families, human machine interactions formed from Reinforcement Learning need to incorporate awareness and knowledge of the habits of handicapped users. As I immerse myself in this highly creative and fast-developing field, I aim to fuse creativity with mathematics, sculpting pioneering systems that enrich the accessibility of technology and intelligent systems in our communities. 
+          These Michigan experiences are the reasons why I am eager to conduct research in the field of robotics in the name of fairness and accessibility. Before robots enter regular households, many problems await resolution in the design of fair and helpful robots for various home scenarios. For example, conversations should be appropriate in single-parent or orphanaged families, human machine interactions trained by Reinforcement Learning need to incorporate awareness and knowledge of handicapped user habits. As I immerse myself in this highly creative and fast-developing field, I aim to fuse creativity with mathematics, sculpting pioneering systems that enrich the accessibility of technology and intelligent systems in our communities. 
         </p>
         
       </div>

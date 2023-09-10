@@ -37,7 +37,7 @@ export default function SparksOfAGI() {
           </p>
 
           <p className="self-left py-4 font-roboto">
-            By observation, I realized that I could model the robot as a &ldquo;cache&rdquo; with a fixed maximum size, so if I were able to monitor the in-queue and out-queue actions of the balls, it would be easy to subtract the two counts and get the number of balls carried by the robot. To achieve that goal, I devised a system quipped with two ultrasonic sensors to detect ball passes: one at the intake and another at the shooter. They each were connected to a counter keeping a live count of the balls traversing each sensor. Should the count meet the limit, the robot would autonomously halt its intake mechanism, saving me from another oversight.
+            By observation, I realized that I could model the robot as a &ldquo;cache&rdquo; with a fixed maximum size, so if I were able to monitor the in-queue and out-queue actions of the balls, it would be easy to subtract the two counts and get the number of balls carried by the robot. To achieve that goal, I devised a system quipped with two sensors to detect ball passes: one at the intake and another at the shooter. They each were connected to a counter keeping a live count of the balls traversing each sensor. Should the count meet the limit, the robot would autonomously halt its intake mechanism, saving me from another oversight.
           </p>
 
           <div className="self-center p-6 float-none md:float-left">
@@ -46,11 +46,11 @@ export default function SparksOfAGI() {
           </div>
 
           <p className="self-left py-4 font-roboto">
-            As simple as this system sounds, numerous try-and-error were conducted in order to produce a consistent and reliable solution: The initial usage of touch-based sensors required a fair amount of activation force, even with a long plastic lever, causing issues with deviated shooting trajectories. Browsing through the allowed component library, the solution I found was using light sensors to track a combination of color and brightness changes. This solved the force problem, but light sensors were also not infallible as lighting conditions change from competition to competition. To address this issue as much as possible, I covered as much part of the detection zone with black stickers to prevent glare and designed a calibration process that took place in the initial seconds of a match while the ball intake system was not activated. 
+            As simple as this system sounds, numerous try-and-error were conducted in order to produce a consistent and reliable solution: The initial usage of button-like sensors required a fair amount of activation force, even with a lever, causing deviated shooting trajectories. Browsing through the component library, I found a solution: using light sensors to track a combination of color and brightness changes. This solved the force problem, but light sensors were also not infallible as lighting conditions change from competition to competition. To address this issue as much as possible, I covered as much part of the robot interior with black stickers to prevent glare and designed a calibration process that took place in the initial seconds of a match, while the ball intake system was not activated. 
           </p>
 
           <p className="self-left py-4 font-roboto">
-            Moreover, since the ball may enter the intake mechanism from different directions in front of the robot, I also had to engineer a solution that could direct balls towards a small tunnel where my sensor could detect each one of them in time. This led to my first exposure to vector mathematics: using 3D coordinates on the robot to digitally design rails that attached to the robot seemlessly. After two months of careful hardware selection, programming, manufacturing, and tuning of the system in various conditions, the system was finally running consistently in all my practice and competitions. No warning or penalty was given to me anymore for the rest of that season. 
+            Moreover, since the ball may enter the intake mechanism from different directions in front of the robot, I also had to engineer a solution that could direct balls towards a small tunnel where my sensor could detect each one of them in time. This led to my first exposure to vector mathematics: using 3D coordinates on the robot to digitally design rails that attached to the robot seemlessly. After two months of careful hardware selection, programming, manufacturing, tuning and testing of the system in various conditions, the system was finally running consistently in all my practice and competitions. No warning or penalty was given to me anymore for the rest of that season. 
           </p>
         </div>
 
@@ -61,7 +61,7 @@ export default function SparksOfAGI() {
         <div>
           <iframe width="720" height="360" src="https://www.youtube.com/embed/Wm7X3IUz6ok" title="169 VEX Turning Point Worlds Reveal" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
           <p className="text-xs py-2 opacity-60 italic"> 
-            Video: World Championship Robot Reveal by my team<sup>2</sup>
+            Bonus Video: World Championship Robot Reveal by my team<sup>2</sup>
           </p>
         </div>
       </div>

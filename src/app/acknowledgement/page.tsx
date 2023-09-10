@@ -15,7 +15,7 @@ export default function Acknowledgement() {
             <ExternalButton title="TailwindCSS" description='What powers this beautiful interface' link='https://tailwindcss.com'/>
             <ExternalButton title="Figma" description='Elegant UI prototyping' link='https://figma.com'/>
             <ExternalButton title="ChatGPT" description='The Obvious way to tackle beginner Coding Problems' link='https://chat.openai.com'/>
-            <ExternalButton title="Deploy to Github Pages" description='Where this site is hosted' link='https://www.viget.com/articles/host-build-and-deploy-next-js-projects-on-github-pages/'/>
+            <ExternalButton title="Github Pages" description='Awesome blog showing how this site is hosted' link='https://www.viget.com/articles/host-build-and-deploy-next-js-projects-on-github-pages/'/>
           </div>
 
         </div>

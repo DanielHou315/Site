@@ -57,7 +57,7 @@ export default function APurePursuit() {
 
             <b>Trials, Triumphs, and Midnight Epiphanies</b>
             <p className="py-4">
-              Then came the World Championships. With the clock ticking down, our robot still had quirks to iron out. One unforgettable night, with my teammates lost in slumber and the quiet hum of machinery my only companion, I found myself deep-diving into debugging the Pure Pursuit stack. And there, in the dim glow of laptop screens and arena lights, our robot executed a near-flawless trajectory. My friend Arnavs stunned admiration, &ldquo;That was the most beautiful thing I&apos;ve ever seen!&rdquo; still rings around my ear as the best compliment ever.
+              Then came the World Championships. With the clock ticking down, our robot still had quirks to iron out. One unforgettable night, with my teammates lost in slumber and the quiet hum of machinery my only companion, I found myself deep-diving into debugging the Pure Pursuit stack. And there, in the dim glow of laptop screens and arena lights, our robot executed a near-flawless trajectory. My friend Arnav&apos;s stunned admiration, &ldquo;That was the most beautiful thing I&apos;ve ever seen!&rdquo; still rings around my ear as the best compliment ever.
             </p>
             
           </div>

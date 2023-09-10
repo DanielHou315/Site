@@ -25,7 +25,7 @@ export default function EPortfolio() {
             </p>
 
             <p>
-              These ambitious pursuits has its origins in humble beginnings. Through trials of errors, extensive research, and with a daring mind to break set boundaries, I am continuously developing a set of work habits and mentalities customized for future success. Today, as I ardently work to craft artificial intelligence systems that champion accessibility and equity, it is worth reflecting on where my lifelong pursuit of accessibility in artificial intelligence originated.
+              These ambitious pursuits has its origins in humble beginnings. Through trials of errors, extensive research, and with a daring mind to break set boundaries, I am continuously developing a set of work habits and mentalities customized for future success. Today, as I ardently work to craft artificial intelligence systems that champion accessibility and equity, it is worth reflecting on where my lifelong pursuit of accessibility in intelligent robotic systems originated.
             </p>
           </div>
 
@@ -118,15 +118,15 @@ export default function EPortfolio() {
           <div id="p5" className="space-y-4">
             <h2 className="font-bold text-md">Chapter V: What Comes Next</h2>
             <p>
-              From the experience with Spatial Audio Guidance System, I realized the importance of branching out for inspirations. It is exactly a completely unrelated gaming experience that sparked an ideation of a helpful device. With Michigan Engineering Honors seminars, I am aspired to actively meet engineers from different fields and inspire each other to continue to innovate in our respective fields. 
+              From the experience with Spatial Audio Guidance System, I realized the importance of branching out for inspirations. It is exactly a completely unrelated gaming experience that sparked an ideation of a helpful device. With Michigan Engineering Honors seminars, I am aspired to actively meet engineers from different fields and inspire each other to continue innovation. 
             </p>
 
             <p>
-              Eager to further gain experiences innovating and experimenting for the good of our communities, I look forward to taking the challenge of an extra capstone project where I will have the freedom to research and realize my dreams in the field of robotics, devising robots and algorithms that assists diabled visitors of our campuses and our communities. 
+              Eager to further gain experiences innovating and experimenting for the good of our communities, I look forward to taking the challenge of an extra capstone project where I will have the freedom to research and realize my dreams in the field of robotics, devising robots and algorithms that assists diabled members and visitors of our campuses and our communities. 
             </p>
 
             <p>
-              As I stand at this juncture, looking both backward at my achievements and forward to the horizon of possibilities, I am reminded of the intrinsic mission of engineering. As I continue to forge ahead, my commitment is unwavering: to innovate with purpose, to always remain a student, eager to learn, adapt, and grow as a roboticist, an Michigan Honors Engineer.
+              As I stand at this juncture, looking both backward at my achievements and forward to the horizon of possibilities, I am reminded of the intrinsic mission of engineering. As I continue to forge ahead, my commitment is unwavering: to innovate with purpose, to always remain a student, eager to learn, adapt, and grow as a roboticist, a Michigan Honors Engineer.
             </p>
 
 
@@ -136,7 +136,7 @@ export default function EPortfolio() {
         <div id="authorship" className="py-8">
           <p><b>By: </b>Huaidian Hou</p>
           <p><b>Released: </b>Aug 16, 2023</p>
-          <p><b>Last Edited: </b>Aug 31, 2023</p>
+          <p><b>Last Edited: </b>Sept 10, 2023</p>
         </div>
 
 
