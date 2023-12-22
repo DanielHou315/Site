@@ -89,6 +89,40 @@ export function ProjectCard({ title, description, imageUrl, pageUrl, year, tag }
   );
 };
 
+export function ProjectCardExternal({ title, description, imageUrl, pageUrl, year, tag }: {title: string, description: string, imageUrl: string, pageUrl: string, year: string, tag: string;}){
+  return (
+    <Link 
+      target="_blank"
+      href={pageUrl}
+      className="flex flex-col w-full border rounded-lg
+                 bg-blue-50
+                 dark:border-neutral-700 
+                 transition-transform transform 
+                 transition-all duration-300 ease-in-out 
+                 hover:scale-105 active:scale-100 
+                 hover:shadow-lg"
+    >
+      {/* Image section */}
+      <div className="relative w-full h-36 rounded-t-lg overflow-hidden">
+        <img
+          src={imageUrl}
+          alt="Image"
+          className="absolute w-full h-full inset-0 object-cover object-center"
+        />
+      </div>
+      {/* Content section */}
+      <div className="flex flex-col flex-grow p-4 break-words h-30">
+        <h3 className="font-bold text-sm">{title}</h3>
+        <h3 className="text-sm">{description}</h3>
+      </div>
+      <div className="flex flex-row p-2 gap-2">
+        <BlueTag title={tag}/>
+        <YellowTag title={year}/>
+      </div>
+    </Link>
+  );
+};
+
 
 
 

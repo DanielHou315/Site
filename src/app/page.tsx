@@ -106,7 +106,6 @@ export default function Home() {
 
           <div className="flex flex-row py-4 gap-8 justify-center">
             <Link href="/static/index/Huaidian_Hou_CV.pdf"><p className="text-blue-600 underline">Download CV (One-page)</p></Link>
-            <Link href="/static/index/Huaidian_Hou_CV.pdf"><p className="text-blue-600 underline">Download CV (Complete and Lengthy)</p></Link>
           </div>
 
 
