@@ -9,23 +9,19 @@ export default function WorkPage() {
         Work Experiences
       </h1>
 
-      <p className="py-8">
-        Here is a list of my Work Experiences
-      </p>
-
       <div>
-        <h3 className="text-xl font-bold text-center p-4">Active Work Experiences</h3>
+        <h3 className="text-xl font-bold text-center p-4 pt-8">Active Work Experiences</h3>
 
         <div className="flex flex-col grid sm:grid-cols-2 md:grid-cols-3 gap-8 p-6">
-          <ProjectCard title="Shapiro Design Lab" faculty="Design Lab Student Inern" imageUrl="/static/index/icons/eecs442.png" pageUrl=""/>
+          <ProjectCard title="EECS 376" description="Instructional Aide" imageUrl="/static/index/icons/eecs376.png" pageUrl="https://eecs376.org" year="2024" tag="Student Instructor"/>
+          
+          <ProjectCard title="U-M Shapiro Design Lab" description="Design Lab Intern" imageUrl="/static/index/icons/um_lib.png" pageUrl="https://www.lib.umich.edu/visit-and-study/creation-and-learning-spaces/shapiro-design-lab" year="2022-Present" tag="Student Intern"/>
           
         </div>
         
         <h3 className="text-xl font-bold text-center p-4">Past Work Experiences</h3>
         <div className="flex flex-col grid sm:grid-cols-2 md:grid-cols-3 gap-8 p-6">
-          <CourseCard title="EECS 281" description="Data Structures and Algorithms" iconFile="/static/index/icons/C++.svg"/>
-          <CourseCard title="EECS 301" description="Probabilistic Methods in Engineering" iconFile="/static/index/icons/eecs301.png"/>
-          <CourseCard title="EECS 376" description="Foundations of Computer Science" iconFile="/static/index/icons/eecs376.png"/>
+          <ProjectCard title="Minsheng Fintech Co. Ltd" description="Research Intern" imageUrl="/static/index/icons/minsheng.svg" pageUrl="http://en.cmbc.com.cn/" year="2023" tag="Research Intern"/>
         </div>
       </div>
     </div>

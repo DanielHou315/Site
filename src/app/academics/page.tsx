@@ -17,7 +17,7 @@ export default function AcademicsPage() {
           <ul className="list-disc px-4">
             <li>Engineering Honors (2023F)</li>
             <li>Branstorm Freshman Prize (2023)</li>
-            <li>Engineering Dean's List (2022F, 2023W, 2023F)</li>
+            <li>Engineering Dean&apos;s List (2022F, 2023W, 2023F)</li>
           </ul>
         </ul>
       </div>

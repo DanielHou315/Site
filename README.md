@@ -5,12 +5,19 @@
 npx create-next-app@latest portfolio
 ​
 ## Configure Dark Mode
-portfolio --> tailwind.config.ts --> Config里添加 “ darkMode: 'media', ”
+portfolio --> tailwind.config.ts --> Config: add “ darkMode: 'media', ”
 ​
 ## Run Dev Server
+```
 npm run dev
+```
+starts the dev server so you can see webpage at http://localhost:3000
 
-and see webpage at http://localhost:3000
+## Test Build Website
+```
+npm run build
+```
+builds the site locally so you can check for any compilation errors.
 
 ## Export Website
 

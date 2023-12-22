@@ -19,7 +19,7 @@ export default function ArtPage() {
 
         <div>
           <p>Pieces</p>
-          <div className="grid md:grid-cols-2 gap-12 p-8">
+          {/* <div className="grid md:grid-cols-2 gap-12 p-8">
             <ProjectCard title="Wings of Meditation" imageUrl="/static/index/Huaidian_Photo.jpg" pageUrl="/" />
             <ProjectCard title="300 SL" imageUrl="/static/index/Huaidian_Photo.jpg" pageUrl="/" />
             <ProjectCard title="Shui Font" imageUrl="/static/index/Huaidian_Photo.jpg" pageUrl="/" />
@@ -30,29 +30,8 @@ export default function ArtPage() {
             <ProjectCard title="The Mandawolverine" imageUrl="/static/index/Huaidian_Photo.jpg" pageUrl="/" />
             <ProjectCard title="3D Models" imageUrl="/static/index/Huaidian_Photo.jpg" pageUrl="/" />
             <ProjectCard title="Leader Cream" imageUrl="/static/index/Huaidian_Photo.jpg" pageUrl="/" />
-          </div>
+          </div> */}
           
-          <ul>
-            <div>Wings of Meditation</div>
-            <div>Font</div>
-            <div>Silhoutte of Suzhou Garden</div>
-            <div>The House</div>
-            <div>The 300SL</div>
-            <div>Luo Dayou Poster</div>
-            <div>Infiniloop</div>
-            <div>Leader Cream</div>
-            <div>The Mandawolverine</div>
-          </ul>
-        </div>
-
-        <div>
-          <p>
-          Pieces in Progress
-          </p>
-          <ul>
-            <div>Sergei</div>
-            <div>3D Models</div>
-          </ul>
         </div>
       </div>
     </div>
