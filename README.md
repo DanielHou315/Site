@@ -12,6 +12,10 @@ npm run dev
 
 and see webpage at http://localhost:3000
 
+## Export Website
+
+Export of this site is completed with Github Actions. 
+
 # Resources
 
 ## Tailwind CSS Documentation

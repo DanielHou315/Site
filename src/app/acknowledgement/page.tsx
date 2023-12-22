@@ -9,13 +9,19 @@ export default function Acknowledgement() {
         <div>
           <p className="py-4 text-center">This website is not possible without these awesome technologies and resources: </p>
           
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 text-center md:text-left place-items-center sm:place-items-left">
+          <div className="flex grid sm:grid-cols-2 md:grid-cols-3 gap-8 justify-center md:text-left place-items-center sm:place-items-left">
 
             <ExternalButton title="Next.js" description='The base Web Framework for this site' link='https://nextjs.org'/>
+            
             <ExternalButton title="TailwindCSS" description='What powers this beautiful interface' link='https://tailwindcss.com'/>
+            
             <ExternalButton title="Figma" description='Elegant UI prototyping' link='https://figma.com'/>
+            
             <ExternalButton title="ChatGPT" description='The Obvious way to tackle beginner Coding Problems' link='https://chat.openai.com'/>
-            <ExternalButton title="Github Pages" description='Awesome blog showing how this site is hosted' link='https://www.viget.com/articles/host-build-and-deploy-next-js-projects-on-github-pages/'/>
+            
+            <ExternalButton title="Github Pages" description='Awesome blog showing how this site is hosted' link='https://pages.github.com//'/>
+
+            <ExternalButton title="The Noun Project" description='Awesome Open Source Icons and Photos' link='https://thenounproject.com/'/>
           </div>
 
         </div>

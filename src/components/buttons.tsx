@@ -35,7 +35,7 @@ export function ExternalButton({link, title, description}: {link: string, title:
   return (
     <a
       href={link}
-      className="group rounded-lg border border-transparent px-5 py-4 
+      className="group rounded-lg border border-transparent px-5 py-4 w-full
         transition-colors 
           hover:border-gray-300 hover:dark:border-neutral-700 
           hover:bg-gray-100/30 hover:dark:bg-gray-500/30 active:bg-gray-400/20 active:dark:bg-neutral-600/30

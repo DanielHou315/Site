@@ -46,13 +46,17 @@ export default function Home() {
             description="Find out everything about me in one minute!"
             link="/#about-me"
           />
-          {/* 
           <SectionButton 
-            title="Projects" 
-            description="Browse my past projects."
-            link="/projects"
+            title="Academics" 
+            description="See my Academic Record."
+            link="/academics"
           />
-          */}
+
+          <SectionButton 
+            title="Research" 
+            description="Browse my current and past research/projects."
+            link="/research"
+          />
 
           <SectionButton 
             title="ePortfolio" 
@@ -95,51 +99,42 @@ export default function Home() {
           About&nbsp;Me
         </h1>
 
-        <div className="p-4 pt-12">
+        <div className="pt-12">
           <p>
-            As a passionate computer scientist and creative artistit, my passion focuses on sculpting intelligence for the benefit of our communities. My ultimate goal is to build intelligent, capable, helpful, and fair robots for our communities, and I continue to expand my toolboxes towards that goal. 
+            As a passionate computer scientist and creative artist, my passion focuses on sculpting intelligence for the benefit of our communities. My ultimate goal is to build intelligent, capable, helpful, and fair robots for our communities, and I continue to expand my toolboxes towards that goal. 
           </p>
 
-          <div className="py-4 text-center">
-            <Link href="/static/index/Huaidian_Hou_CV.pdf"><p className="text-blue-600 underline">Download CV</p></Link>
+          <div className="flex flex-row py-4 gap-8 justify-center">
+            <Link href="/static/index/Huaidian_Hou_CV.pdf"><p className="text-blue-600 underline">Download CV (One-page)</p></Link>
+            <Link href="/static/index/Huaidian_Hou_CV.pdf"><p className="text-blue-600 underline">Download CV (Complete and Lengthy)</p></Link>
           </div>
 
+
           <div>
+            <h2 className="text-bold text-lg pt-12">My Toolbox: </h2>
 
-            <div className="">
-              <h2 className="text-bold text-lg pt-12">My Toolbox: </h2>
-
-              <div className="flex flex-col text-center">
-                <div className="
-                  grid sm:grid-cols-2 md:grid-cols-3 gap-8 p-6">
-                  <SkillCard title="C++" iconFile="/static/index/icons/C++.svg"/>
-                  <SkillCard title="Python" iconFile="/static/index/icons/python.svg"/>
-                  <SkillCard title="Typescript" iconFile="/static/index/icons/typescript.svg"/>
-                  <SkillCard title="Scikit-Learn" iconFile="/static/index/icons/sklearn.svg"/>
-                  <SkillCard title="Numpy" iconFile="/static/index/icons/numpy.svg"/>
-                  <SkillCard title="ROS" iconFile="/static/index/icons/ros.svg"/>
-                  <SkillCard title="React.js" iconFile="/static/index/icons/react.svg"/>
-                  <SkillCard title="Docker" iconFile="/static/index/icons/docker.svg"/>
-                </div>
-
-              </div>
+            <div className="
+              flex flex-col grid justify-center sm:grid-cols-2 md:grid-cols-3 gap-8 py-6">
+              <SkillCard title="C++" iconFile="/static/index/icons/C++.svg"/>
+              <SkillCard title="Python" iconFile="/static/index/icons/python.svg"/>
+              <SkillCard title="Typescript" iconFile="/static/index/icons/typescript.svg"/>
+              <SkillCard title="Scikit-Learn" iconFile="/static/index/icons/sklearn.svg"/>
+              <SkillCard title="Numpy" iconFile="/static/index/icons/numpy.svg"/>
+              <SkillCard title="ROS" iconFile="/static/index/icons/ros.svg"/>
+              <SkillCard title="Next.js" iconFile="/static/index/icons/nextjs.svg"/>
+              <SkillCard title="Docker" iconFile="/static/index/icons/docker.svg"/>
             </div>
 
 
-            <div className="pt-12">
-              <h2 className="text-bold text-xl">I am Learning: </h2>
+            <h2 className="pt-12 text-bold text-xl">I am Learning: </h2>
 
-              <div className="flex flex-col text-center">
-                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 p-6">
-                  <SkillCard title="ConvNets" iconFile="/static/index/icons/machine-learning.svg"/>
-                  <SkillCard title="Reinforcement Learning" iconFile="/static/index/icons/machine-learning.svg"/>
-                  <SkillCard title="Residual Networks" iconFile="/static/index/icons/machine-learning.svg"/>
-                  <SkillCard title="Robotic Manipulation" iconFile="/static/index/icons/machine-learning.svg"/>
-                  <SkillCard title="PyTorch" iconFile="/static/index/icons/pytorch.svg"/>
-                  <SkillCard title="Hugging Face Transformers" iconFile="/static/index/icons/huggingface.svg"/>
-                  <SkillCard title="OpenCV" iconFile="/static/index/icons/opencv.svg"/>
-                </div>
-              </div>
+            <div className="flex flex-col grid justify-center sm:grid-cols-2 md:grid-cols-3 gap-8 py-6">
+              <SkillCard title="Convolutional Neural Nets" iconFile="/static/index/icons/machine-learning.svg"/>
+              <SkillCard title="Reinforcement Learning" iconFile="/static/index/icons/machine-learning.svg"/>
+              <SkillCard title="Robotic Manipulation" iconFile="/static/index/icons/machine-learning.svg"/>
+              <SkillCard title="PyTorch" iconFile="/static/index/icons/pytorch.svg"/>
+              <SkillCard title="Hugging Face Transformers" iconFile="/static/index/icons/huggingface.svg"/>
+              <SkillCard title="OpenCV" iconFile="/static/index/icons/opencv.svg"/>
             </div>
           </div>
         </div>
