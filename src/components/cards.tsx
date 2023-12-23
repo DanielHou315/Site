@@ -131,7 +131,7 @@ export function ProjectCardExternal({ title, description, imageUrl, pageUrl, yea
 
 export function SkillCard({title, iconFile}: {title: string, iconFile: string}) {
   return(
-    <div className="flex w-full h-16 dark:border-neutral-700 dark:bg-gray-100/20 rounded-lg p-1">
+    <div className="flex w-full h-16 dark:bg-blue-200/20 rounded-lg p-1 dark:backdrop-blur-lg">
       <div className="relative w-11 h-full overflow-hidden flex-shrink-0 flex-grow-0 p-2 place-items-center">
         <img
           fetchPriority='high'

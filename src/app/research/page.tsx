@@ -39,7 +39,7 @@ export default function ResearchPage() {
       </div>
 
 
-      {/* Hobbiest Projects */}
+      {/* Hobbyist Projects */}
       {/* <h3 className="text-xl font-bold text-center p-4">Hobbies Projects</h3>
 
       <div className="flex flex-col grid sm:grid-cols-2 md:grid-cols-3 gap-8 p-6">

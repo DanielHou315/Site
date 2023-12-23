@@ -28,7 +28,7 @@ export function NavButton({ title, href }: {title: string;href: string;}) {
 export function Navbar() {
   return (
     <div className="fixed top-0 left-0 z-10 w-full group 
-    bg-gradient-to-b from-white dark:from-neutral-100 to-transparent
+    bg-gradient-to-b from-white dark:from-gray-800 to-transparent
     transition-all hover:backdrop-blur
     duration-300 ease-in-out p-7">
       {/* hover:backdrop-blur */}

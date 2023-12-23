@@ -117,23 +117,40 @@ export default function Home() {
               <SkillCard title="C++" iconFile="/static/index/icons/C++.svg"/>
               <SkillCard title="Python" iconFile="/static/index/icons/python.svg"/>
               <SkillCard title="Typescript" iconFile="/static/index/icons/typescript.svg"/>
-              <SkillCard title="Scikit-Learn" iconFile="/static/index/icons/sklearn.svg"/>
+              
+              <SkillCard title="Django" iconFile="/static/index/icons/django.svg"/>
               <SkillCard title="Numpy" iconFile="/static/index/icons/numpy.svg"/>
-              <SkillCard title="ROS" iconFile="/static/index/icons/ros.svg"/>
               <SkillCard title="Next.js" iconFile="/static/index/icons/nextjs.svg"/>
+              
+              <SkillCard title="ROS" iconFile="/static/index/icons/ros.svg"/>
               <SkillCard title="Docker" iconFile="/static/index/icons/docker.svg"/>
+              <SkillCard title="Linux Systems" iconFile="/static/index/icons/linux.svg"/>
             </div>
 
 
             <h2 className="pt-12 text-bold text-xl">I am Learning: </h2>
 
             <div className="flex flex-col grid justify-center sm:grid-cols-2 md:grid-cols-3 gap-8 py-6">
-              <SkillCard title="Convolutional Neural Nets" iconFile="/static/index/icons/machine-learning.svg"/>
-              <SkillCard title="Reinforcement Learning" iconFile="/static/index/icons/machine-learning.svg"/>
-              <SkillCard title="Robotic Manipulation" iconFile="/static/index/icons/machine-learning.svg"/>
               <SkillCard title="PyTorch" iconFile="/static/index/icons/pytorch.svg"/>
               <SkillCard title="Hugging Face Transformers" iconFile="/static/index/icons/huggingface.svg"/>
               <SkillCard title="OpenCV" iconFile="/static/index/icons/opencv.svg"/>
+
+              <SkillCard title="Convolutional Neural Nets" iconFile="/static/index/icons/machine-learning.svg"/>
+              <SkillCard title="Reinforcement Learning" iconFile="/static/index/icons/machine-learning.svg"/>
+              <SkillCard title="Robotic Manipulation" iconFile="/static/index/icons/machine-learning.svg"/>
+            </div>
+
+            <h2 className="pt-12 text-bold text-xl">My Artistic (Hobbyist) Tools: </h2>
+
+            <div className="flex flex-col grid justify-center sm:grid-cols-2 md:grid-cols-3 gap-8 py-6">
+              <SkillCard title="Adobe Premiere Pro" iconFile="/static/index/icons/adobe_pr.svg"/>
+              <SkillCard title="Adobe Photoshop" iconFile="/static/index/icons/adobe_ps.svg"/>
+              <SkillCard title="Adobe Illustrator" iconFile="/static/index/icons/adobe_ai.svg"/>
+              <SkillCard title="Dassault SolidWorks" iconFile="/static/index/icons/solidworks.svg"/>
+              <SkillCard title="Sketchup Pro" iconFile="/static/index/icons/sketchup.svg"/>
+              <SkillCard title="Autodesk Fusion 360" iconFile="/static/index/icons/fusion.png"/>
+              <SkillCard title="Lumion" iconFile="/static/index/icons/lumion.svg"/>
+              <SkillCard title="PrusaSlicer" iconFile="/static/index/icons/prusa.png"/>
             </div>
           </div>
         </div>
