@@ -9,9 +9,10 @@ export default function AcademicsPage() {
         Academics
       </h1>
 
-      <h2 className="text-xl font-bold text-center p-4"> In a Nutshell </h2>
+      <h2 className="text-xl font-bold text-center p-4"> Undergraduate Education </h2>
       <div className="items-center justify-center pb-36">
         <CenterText leftText="Institution" rightText="University of Michigan"/>
+        <CenterText leftText="Location" rightText="Ann Arbor, Michigan, United States"/>
         <CenterText leftText="Major" rightText="Computer Science"/>
         <CenterText leftText="Department" rightText="College of Engineering"/>
         <CenterText leftText="Minor" rightText="Mathematics"/>
@@ -55,6 +56,21 @@ export default function AcademicsPage() {
           <CourseCard title="ENGR 100" description="Introduction to Engineering" iconFile="/index/icons/engr100.jpeg"/>
           <CourseCard title="DIGITAL 258" description="Humanities Themes in Digital Studies" iconFile="/index/icons/digital258.png"/>
         </div>
+      </div>
+
+
+      <h2 className="text-xl font-bold text-center p-4"> High School Education </h2>
+      <div className="items-center justify-center pb-36">
+        <CenterText leftText="Institution" rightText="The Haverford School"/>
+        <CenterText leftText="Location" rightText="Haverford, Pennsylvania, United States"/>
+        <CenterText leftText="Major" rightText="Computer Science"/>
+        <CenterText leftText="Department" rightText="College of Engineering"/>
+        <CenterText leftText="Minor" rightText="Mathematics"/>
+        <CenterText leftText="GPA (Major GPA)" rightText="4.0 (4.0)"/>
+        <CenterText leftText="Honors" rightText="College of Engineering Honors Student (since 2023)"/>
+        <CenterText leftText=" " rightText="James B. Angell Scholar (2024)"/>
+        <CenterText leftText=" " rightText="Branstorm Freshman Prize (2023)"/>
+        <CenterText leftText=" " rightText="Engineering Dean's List (2022-2023)"/>
       </div>
       
     </div>
