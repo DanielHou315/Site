@@ -69,6 +69,7 @@ export default function AcademicsPage() {
         <CenterText leftText="Honors" rightText="Graduated Cum Laude (2022)"/>
         <CenterText leftText=" " rightText="John C Lober Award in Mathematics (2022)"/>
         <CenterText leftText=" " rightText="Cum Laude Society (since 2021)"/>
+        <CenterText leftText=" " rightText="The University of Chicago Book Award (2022)"/>
         <CenterText leftText=" " rightText="AIME Qualifier (2020, 2021)"/>
         <CenterText leftText=" " rightText="USACO Platinum Qualifier (2021)"/>
         <CenterText leftText=" " rightText="VEX Robotics Signature Event Championship Winner (2020)"/>
