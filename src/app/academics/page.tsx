@@ -12,6 +12,7 @@ export default function AcademicsPage() {
       <h2 className="text-xl font-bold text-center p-4"> Undergraduate Education </h2>
       <div className="items-center justify-center pb-36">
         <CenterText leftText="Institution" rightText="University of Michigan"/>
+        <CenterText leftText="Years" rightText="August 2022 - Present (Sophomore)"/>
         <CenterText leftText="Location" rightText="Ann Arbor, Michigan, United States"/>
         <CenterText leftText="Major" rightText="Computer Science"/>
         <CenterText leftText="Department" rightText="College of Engineering"/>
@@ -24,7 +25,7 @@ export default function AcademicsPage() {
       </div>
       
 
-      <div>
+      <div className="pb-36">
         <h3 className="text-xl font-bold text-center p-4">Featured Courses</h3>
 
         <h3 className="text-large font-bold">2024 Winter Term (in progress)</h3>
@@ -62,15 +63,16 @@ export default function AcademicsPage() {
       <h2 className="text-xl font-bold text-center p-4"> High School Education </h2>
       <div className="items-center justify-center pb-36">
         <CenterText leftText="Institution" rightText="The Haverford School"/>
+        <CenterText leftText="Years" rightText="August 2018 - May 2022 (Graduated)"/>
         <CenterText leftText="Location" rightText="Haverford, Pennsylvania, United States"/>
-        <CenterText leftText="Major" rightText="Computer Science"/>
-        <CenterText leftText="Department" rightText="College of Engineering"/>
-        <CenterText leftText="Minor" rightText="Mathematics"/>
-        <CenterText leftText="GPA (Major GPA)" rightText="4.0 (4.0)"/>
-        <CenterText leftText="Honors" rightText="College of Engineering Honors Student (since 2023)"/>
-        <CenterText leftText=" " rightText="James B. Angell Scholar (2024)"/>
-        <CenterText leftText=" " rightText="Branstorm Freshman Prize (2023)"/>
-        <CenterText leftText=" " rightText="Engineering Dean's List (2022-2023)"/>
+        <CenterText leftText="GPA" rightText="4.0"/>
+        <CenterText leftText="Honors" rightText="Graduated Cum Laude (2022)"/>
+        <CenterText leftText=" " rightText="John C Lober Award in Mathematics (2022)"/>
+        <CenterText leftText=" " rightText="Cum Laude Society (since 2021)"/>
+        <CenterText leftText=" " rightText="AIME Qualifier (2020, 2021)"/>
+        <CenterText leftText=" " rightText="USACO Platinum Qualifier (2021)"/>
+        <CenterText leftText=" " rightText="VEX Robotics Signature Event Championship Winner (2020)"/>
+        <CenterText leftText=" " rightText="Scholastic Art & Writing National Silver Medal (2021)"/>
       </div>
       
     </div>
