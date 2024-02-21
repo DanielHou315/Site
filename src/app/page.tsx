@@ -67,7 +67,7 @@ export default function Home() {
           {/* 
           <SectionButton 
             title="Blogs" 
-            description="Explore my technical (and pseudo-technical) blogs."
+            description="Explore my personal blogs!"
             link="/blogs"
           />
           */}
@@ -75,7 +75,7 @@ export default function Home() {
           {/* 
           <SectionButton 
             title="Art" 
-            description="See how I do random things in my free time!"
+            description="Read about my hobbies :)"
             link="/art"
           />
           */}
