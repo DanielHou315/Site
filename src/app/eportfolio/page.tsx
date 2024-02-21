@@ -39,7 +39,7 @@ export default function EPortfolio() {
               <ArticleCard 
                 title="Sparks of AGI" 
                 description="Automated GuardIng system: passion and experience with robotics translated to personal discovery of new field..." 
-                imageUrl="/static/post/eportfolio/sparks-of-agi/sparks-of-agi-1.jpg"
+                imageUrl="/post/eportfolio/sparks-of-agi/sparks-of-agi-1.jpg"
                 pageUrl="/eportfolio/sparks-of-agi"
               />
             </div>
@@ -61,7 +61,7 @@ export default function EPortfolio() {
               <ArticleCard 
                 title="The Road First Heard By" 
                 description="I can hear the road: story of a blind navigation device inspired by video games during pandemic..." 
-                imageUrl="/static/post/eportfolio/the-road-first-heard-by/spatial-audio-apple.jpg"
+                imageUrl="/post/eportfolio/the-road-first-heard-by/spatial-audio-apple.jpg"
                 pageUrl="/eportfolio/the-road-first-heard-by"
               />
             </div>
@@ -81,7 +81,7 @@ export default function EPortfolio() {
               <ArticleCard 
                 title="A Pure Pursuit" 
                 description="As senior year dawned, my days were colored with a mix of hands-on tinkering and devouring literature on control theories..." 
-                imageUrl="/static/post/eportfolio/a-pure-pursuit/a-pure-pursuit-1.jpg"
+                imageUrl="/post/eportfolio/a-pure-pursuit/a-pure-pursuit-1.jpg"
                 pageUrl="/eportfolio/a-pure-pursuit"
               />
             </div>
@@ -102,7 +102,7 @@ export default function EPortfolio() {
               <ArticleCard 
                 title="A Mission is All You Need" 
                 description="Arriving at Michigan Engineering was not just a geographical shift for me, but an elevation in my engineering ethos..." 
-                imageUrl="/static/post/eportfolio/a-mission-is-all-you-need/Obsidian-sc.jpg"
+                imageUrl="/post/eportfolio/a-mission-is-all-you-need/Obsidian-sc.jpg"
                 pageUrl="/eportfolio/a-mission-is-all-you-need"
               />
             </div>

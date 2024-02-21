@@ -31,7 +31,7 @@ export default function AMission() {
 
         <div className="pt-4">
           <div className="self-center pr-6 pt-4 float-none md:float-left">
-            <img fetchPriority='high' className="rounded-3xl shadow-xl overflow-hidden" src="/static/post/eportfolio/a-mission-is-all-you-need/Engr100_Tech_Drawing.jpg" alt="Image" width={420} height={180}/>
+            <img fetchPriority='high' className="rounded-3xl shadow-xl overflow-hidden" src="/post/eportfolio/a-mission-is-all-you-need/Engr100_Tech_Drawing.jpg" alt="Image" width={420} height={180}/>
             <p className="text-xs py-2 opacity-60 italic pb-14">Image: Engr 100 Class Project <b>Suds Saver</b> Technical Drawing</p>
           </div>
 
@@ -40,7 +40,7 @@ export default function AMission() {
           </p>
 
           <div className="min-w-xl py-2">  
-            <FileTextButton pageUrl="/static/post/eportfolio/a-mission-is-all-you-need/Huaidian_Hou_Engr_100_Final_Report_Suds_Saver.pdf" title="Download the Engr 100 Suds Saver Project Report"/>
+            <FileTextButton pageUrl="/post/eportfolio/a-mission-is-all-you-need/Huaidian_Hou_Engr_100_Final_Report_Suds_Saver.pdf" title="Download the Engr 100 Suds Saver Project Report"/>
           </div>
 
         </div>

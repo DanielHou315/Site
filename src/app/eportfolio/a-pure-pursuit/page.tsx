@@ -30,7 +30,7 @@ export default function APurePursuit() {
 
             {/* <div className="self-center pl-6 float-none md:float-right">
 
-              <img fetchPriority='high' className="rounded-3xl shadow-xl overflow-hidden" src="/static/post/eportfolio/a-pure-pursuit/a-pure-pursuit-3.jpg" alt="Image" width={320} height={180}/>
+              <img fetchPriority='high' className="rounded-3xl shadow-xl overflow-hidden" src="/post/eportfolio/a-pure-pursuit/a-pure-pursuit-3.jpg" alt="Image" width={320} height={180}/>
               <p className="text-xs py-2 opacity-60 italic">Image: Action Shot of Pure Pursuit in the Tuning</p>
 
             </div> */}
@@ -41,10 +41,10 @@ export default function APurePursuit() {
           <div className="py-4">
 
             <div className="float-none pr-6 py-2 md:float-left">
-              <img fetchPriority='high' className="rounded-3xl shadow-xl overflow-hidden" src="/static/post/eportfolio/a-pure-pursuit/pure_pursuit_lookahead1.png" alt="Image" width={360} height={360}/>
+              <img fetchPriority='high' className="rounded-3xl shadow-xl overflow-hidden" src="/post/eportfolio/a-pure-pursuit/pure_pursuit_lookahead1.png" alt="Image" width={360} height={360}/>
                 <p className="text-xs py-2 opacity-60 italic">Image: Ilustration of the Pure Pursuit Algorithm<sup>3</sup></p>
 
-              <img fetchPriority='high' className="rounded-3xl shadow-xl overflow-hidden" src="/static/post/eportfolio/a-pure-pursuit/pure_pursuit_core.png" alt="Image" width={360} height={360}/>
+              <img fetchPriority='high' className="rounded-3xl shadow-xl overflow-hidden" src="/post/eportfolio/a-pure-pursuit/pure_pursuit_core.png" alt="Image" width={360} height={360}/>
                 <p className="text-xs py-2 opacity-60 italic">Image: Core Pure Pursuit Algorithm</p>
             </div>
             
@@ -64,7 +64,7 @@ export default function APurePursuit() {
 
           <div className="h-full">
             <div className="self-center pl-6 pt-4 float-none md:float-right">
-              <img fetchPriority='high' className="rounded-3xl shadow-xl overflow-hidden" src="/static/post/eportfolio/a-pure-pursuit/a-pure-pursuit-1.jpg" alt="Image" width={360} height={180}/>
+              <img fetchPriority='high' className="rounded-3xl shadow-xl overflow-hidden" src="/post/eportfolio/a-pure-pursuit/a-pure-pursuit-1.jpg" alt="Image" width={360} height={180}/>
               <p className="text-xs py-2 opacity-60 italic">Image: Team 169 Robots at 2022 VEX World Championship</p>
             </div>  
 

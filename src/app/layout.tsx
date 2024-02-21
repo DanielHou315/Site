@@ -22,7 +22,7 @@ export default function RootLayout({
         <link rel="icon" href="/static/index/favicon.ico" sizes="any" />
       </head>
       <body className={inter.className}>
-        <section className="bg-gradient-to-br from-pink-50 to-yellow-50 dark:from-blue-900 dark:to-gray-900">
+        <section className="bg-gradient-to-br from-pink-50 to-yellow-50  dark:from-blue-900 dark:to-gray-900">
           <Navbar/>
           <div className="flex w-11/16 flex-col items-center justify-between">
             <div className="min-h-screen p-8 pt-24 max-w-4xl font-serif">

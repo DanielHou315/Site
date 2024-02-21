@@ -5,7 +5,7 @@ const shuiFontFace = {
   '@font-face': [
     {
       fontFamily: 'Shui',
-      src: `url('/static/index/Shui.otf') format('opentype')`,
+      src: `url('/index/Shui.otf') format('opentype')`,
       fontWeight: 'normal',
       fontStyle: 'normal',
     },
@@ -34,7 +34,12 @@ const config: Config = {
         'blur': 'blur(4px)',
         'more-blur': 'blur(8px)',
         'most-blur': 'blur(12px)',
-     }
+     },
+      opacity: {
+        '15': '0.15',
+        '50': '0.5',
+        '65': '0.65',
+      }
     },
   },
   plugins: [

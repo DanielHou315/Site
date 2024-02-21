@@ -12,12 +12,14 @@ let basePath = ''
 //   basePath = `/${repo}`
 // }
 
+const withMDX = require('@next/mdx')()
 
 const nextConfig = {
   output: 'export',
   assetPrefix: assetPrefix,
   basePath: basePath,
+  pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
 }
 
 
-module.exports = nextConfig
+module.exports = withMDX(nextConfig)

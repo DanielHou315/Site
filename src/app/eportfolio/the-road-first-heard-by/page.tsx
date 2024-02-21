@@ -64,7 +64,7 @@ export default function RoadAheadPage() {
         </p>
 
         <div className="min-w-xl">  
-          <FileTextButton pageUrl="/static/post/eportfolio/the-road-first-heard-by/SAGS_v1_Technical_Specification.pdf" title="Download SAGS v1 Technical Specification"/>
+          <FileTextButton pageUrl="/post/eportfolio/the-road-first-heard-by/SAGS_v1_Technical_Specification.pdf" title="Download SAGS v1 Technical Specification"/>
         </div>
 
       </div>

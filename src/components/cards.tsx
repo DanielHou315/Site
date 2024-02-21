@@ -42,7 +42,7 @@ export const ArticleCard: React.FC<CardProps> = ({ title, description, imageUrl,
 
 export function BlueTag({title}: {title: string;}) {
   return(
-    <div className="rounded-lg bg-blue-200 dark:bg-blue-600">
+    <div className="rounded-lg bg-gray-400 bg-opacity-50 dark:bg-blue-600">
     <p className="text-xs p-2">{title}</p>
   </div>
   );
@@ -61,7 +61,7 @@ export function ProjectCard({ title, description, imageUrl, pageUrl, year, tag }
     <Link 
       href={pageUrl}
       className="flex flex-col w-full border rounded-lg
-                 bg-blue-50 dark:bg-blue-800/30
+                 border-2 
                  dark:border-neutral-700 
                  transition-transform transform 
                  transition-all duration-300 ease-in-out 
@@ -95,7 +95,7 @@ export function ProjectCardExternal({ title, description, imageUrl, pageUrl, yea
       target="_blank"
       href={pageUrl}
       className="flex flex-col w-full border rounded-lg
-                 bg-blue-50 dark:bg-blue-800/30
+                 border-2 
                  dark:border-neutral-700 
                  transition-transform transform 
                  transition-all duration-300 ease-in-out 

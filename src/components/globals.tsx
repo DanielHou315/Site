@@ -1,9 +1,10 @@
 import Link from 'next/link'
+import { stringify } from 'postcss';
 
 export function Favicon() {
   return (
     <Link href="/" className="mr-auto scale-125 opacity-100 transition-all duration-200 transform transition-transform group-hover:translate-y-1 hover:scale-150 active:scale-125">
-      <img fetchPriority='high' src="/static/index/favicon.svg" alt="Home" className="h-6 w-6" />
+      <img fetchPriority='high' src="/index/favicon.svg" alt="Home" className="h-6 w-6" />
     </Link>
   );
 }
@@ -15,7 +16,7 @@ export function NavButton({ title, href }: {title: string;href: string;}) {
       className="ml-4 px-3 py-2 rounded opacity-0
         transition-all duration-200 ease-in-out
           group-hover:opacity-100 
-          hover:bg-gray-500/20 hover:dark:bg-neutral-200/20 active:bg-gray-600/30 active:dark:bg-neutral-400/40
+          hover:bg-neutral-400/20 hover:dark:bg-neutral-200/20 active:bg-gray-600/30 active:dark:bg-neutral-400/40
         transition-transform 
           group-hover:translate-y-1 
           hover:scale-105 active:scale-100"

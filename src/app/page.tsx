@@ -28,7 +28,7 @@ export default function Home() {
           <img
             fetchPriority='high'
             className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] rounded-full"
-            src="/static/index/Huaidian_Photo.jpg"
+            src="/index/Huaidian_Photo.jpg"
             alt="Huaidian Hou"
             width={220}
             height={220}
@@ -105,7 +105,7 @@ export default function Home() {
           </p>
 
           <div className="flex flex-row py-4 gap-8 justify-center">
-            <Link href="/static/index/Huaidian_Hou_CV.pdf"><p className="text-blue-600 underline">Download CV (One-page)</p></Link>
+            <Link href="/index/Huaidian_Hou_CV.pdf"><p className="text-blue-600 underline">Download CV (One-page)</p></Link>
           </div>
 
 
@@ -114,43 +114,43 @@ export default function Home() {
 
             <div className="
               flex flex-col grid justify-center sm:grid-cols-2 md:grid-cols-3 gap-8 py-6">
-              <SkillCard title="C++" iconFile="/static/index/icons/C++.svg"/>
-              <SkillCard title="Python" iconFile="/static/index/icons/python.svg"/>
-              <SkillCard title="Typescript" iconFile="/static/index/icons/typescript.svg"/>
+              <SkillCard title="C++" iconFile="/index/icons/C++.svg"/>
+              <SkillCard title="Python" iconFile="/index/icons/python.svg"/>
+              <SkillCard title="Typescript" iconFile="/index/icons/typescript.svg"/>
               
-              <SkillCard title="Django" iconFile="/static/index/icons/django.svg"/>
-              <SkillCard title="Numpy" iconFile="/static/index/icons/numpy.svg"/>
-              <SkillCard title="Next.js" iconFile="/static/index/icons/nextjs.svg"/>
+              <SkillCard title="Django" iconFile="/index/icons/django.svg"/>
+              <SkillCard title="Numpy" iconFile="/index/icons/numpy.svg"/>
+              <SkillCard title="Next.js" iconFile="/index/icons/nextjs.svg"/>
               
-              <SkillCard title="ROS" iconFile="/static/index/icons/ros.svg"/>
-              <SkillCard title="Docker" iconFile="/static/index/icons/docker.svg"/>
-              <SkillCard title="Linux Systems" iconFile="/static/index/icons/linux.svg"/>
+              <SkillCard title="ROS" iconFile="/index/icons/ros.svg"/>
+              <SkillCard title="Docker" iconFile="/index/icons/docker.svg"/>
+              <SkillCard title="Linux Systems" iconFile="/index/icons/linux.svg"/>
             </div>
 
 
             <h2 className="pt-12 text-bold text-xl">I am Learning: </h2>
 
             <div className="flex flex-col grid justify-center sm:grid-cols-2 md:grid-cols-3 gap-8 py-6">
-              <SkillCard title="PyTorch" iconFile="/static/index/icons/pytorch.svg"/>
-              <SkillCard title="Hugging Face Transformers" iconFile="/static/index/icons/huggingface.svg"/>
-              <SkillCard title="OpenCV" iconFile="/static/index/icons/opencv.svg"/>
+              <SkillCard title="PyTorch" iconFile="/index/icons/pytorch.svg"/>
+              <SkillCard title="Hugging Face Transformers" iconFile="/index/icons/huggingface.svg"/>
+              <SkillCard title="OpenCV" iconFile="/index/icons/opencv.svg"/>
 
-              <SkillCard title="Convolutional Neural Nets" iconFile="/static/index/icons/machine-learning.svg"/>
-              <SkillCard title="Reinforcement Learning" iconFile="/static/index/icons/machine-learning.svg"/>
-              <SkillCard title="Robotic Manipulation" iconFile="/static/index/icons/machine-learning.svg"/>
+              <SkillCard title="Convolutional Neural Nets" iconFile="/index/icons/machine-learning.svg"/>
+              <SkillCard title="Reinforcement Learning" iconFile="/index/icons/machine-learning.svg"/>
+              <SkillCard title="Robotic Manipulation" iconFile="/index/icons/machine-learning.svg"/>
             </div>
 
             <h2 className="pt-12 text-bold text-xl">My Artistic (Hobbyist) Tools: </h2>
 
             <div className="flex flex-col grid justify-center sm:grid-cols-2 md:grid-cols-3 gap-8 py-6">
-              <SkillCard title="Adobe Premiere Pro" iconFile="/static/index/icons/adobe_pr.svg"/>
-              <SkillCard title="Adobe Photoshop" iconFile="/static/index/icons/adobe_ps.svg"/>
-              <SkillCard title="Adobe Illustrator" iconFile="/static/index/icons/adobe_ai.svg"/>
-              <SkillCard title="Dassault SolidWorks" iconFile="/static/index/icons/solidworks.svg"/>
-              <SkillCard title="Sketchup Pro" iconFile="/static/index/icons/sketchup.svg"/>
-              <SkillCard title="Autodesk Fusion 360" iconFile="/static/index/icons/fusion.png"/>
-              <SkillCard title="Lumion" iconFile="/static/index/icons/lumion.svg"/>
-              <SkillCard title="PrusaSlicer" iconFile="/static/index/icons/prusa.png"/>
+              <SkillCard title="Adobe Premiere Pro" iconFile="/index/icons/adobe_pr.svg"/>
+              <SkillCard title="Adobe Photoshop" iconFile="/index/icons/adobe_ps.svg"/>
+              <SkillCard title="Adobe Illustrator" iconFile="/index/icons/adobe_ai.svg"/>
+              <SkillCard title="Dassault SolidWorks" iconFile="/index/icons/solidworks.svg"/>
+              <SkillCard title="Sketchup Pro" iconFile="/index/icons/sketchup.svg"/>
+              <SkillCard title="Autodesk Fusion 360" iconFile="/index/icons/fusion.png"/>
+              <SkillCard title="Lumion" iconFile="/index/icons/lumion.svg"/>
+              <SkillCard title="PrusaSlicer" iconFile="/index/icons/prusa.png"/>
             </div>
           </div>
         </div>

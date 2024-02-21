@@ -28,7 +28,7 @@ export default function SparksOfAGI() {
         <div>
 
           <div className="self-center p-6 float-none md:float-right">
-            <img className="rounded-3xl shadow-xl" src="/static/post/eportfolio/sparks-of-agi/turning_point_field_noted.jpg" width={420} alt="Sparks of AGI"/>
+            <img className="rounded-3xl shadow-xl" src="/post/eportfolio/sparks-of-agi/turning_point_field_noted.jpg" width={420} alt="Sparks of AGI"/>
             <p className="text-xs py-2 opacity-60 italic">Image: VEX 2018-2019 Challenge: Turning Point</p>
           </div>
           
@@ -41,7 +41,7 @@ export default function SparksOfAGI() {
           </p>
 
           <div className="self-center p-6 float-none md:float-left">
-            <img className="rounded-3xl shadow-xl" src="/static/post/eportfolio/sparks-of-agi/sparks-of-agi-1.jpg" width={360} height={240} alt="Sparks of AGI"/>
+            <img className="rounded-3xl shadow-xl" src="/post/eportfolio/sparks-of-agi/sparks-of-agi-1.jpg" width={360} height={240} alt="Sparks of AGI"/>
             <p className="text-xs py-2 opacity-60 italic">Image: Last robot of the season with completed detection system</p>
           </div>
 
