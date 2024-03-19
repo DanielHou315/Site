@@ -46,6 +46,7 @@ const config: Config = {
     function ({ addBase }: {addBase:Function}) {
       addBase(shuiFontFace);
     },
+    require("@tailwindcss/typography")
   ],
 }
 export default config

@@ -17,3 +17,20 @@ export const CenterText: React.FC<CenterAlignedTextProps> = ({ leftText, rightTe
     </div>
   );
 };
+
+
+
+interface H1TextProps {
+  text: string;
+  font: string;
+}
+
+export const H1Text: React.FC<H1TextProps> = ({ text, font = 'shui' }) => {
+  return (
+    <div className={`flex justify-center items-center font-${font}`}>
+      <div className="self-center text-6xl font-shui text-center dark:text-white border-b">
+        {text}
+      </div>
+    </div>
+  );
+};

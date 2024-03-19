@@ -1,5 +1,6 @@
 import { ArticleCard } from "@components/cards"
 import { ExternalTextButton } from '@components/buttons'
+import { H1Text } from "@/components/styling"
 
 export default function EPortfolio() {
   return (
@@ -7,9 +8,7 @@ export default function EPortfolio() {
 
         {/* Title Section */}
 
-        <h1 className="self-center text-6xl font-shui text-center font-mono dark:text-white border-b">
-          E&nbsp;Portfolio
-        </h1>
+        <H1Text text="M-Portfolio" font="shui" />
 
         <h1 className="pt-6 pb-12">Q: Tell us about a community or cause that you are passionate about and are part of or want to be involved in.</h1>
 
@@ -40,7 +39,8 @@ export default function EPortfolio() {
                 title="Sparks of AGI" 
                 description="Automated GuardIng system: passion and experience with robotics translated to personal discovery of new field..." 
                 imageUrl="/post/eportfolio/sparks-of-agi/sparks-of-agi-1.jpg"
-                pageUrl="/eportfolio/sparks-of-agi"
+                // pageUrl="/eportfolio/sparks-of-agi"
+                pageUrl="https://blogs.danielhou.me/posts/sparks-of-agi"
               />
             </div>
 
@@ -62,7 +62,8 @@ export default function EPortfolio() {
                 title="The Road First Heard By" 
                 description="I can hear the road: story of a blind navigation device inspired by video games during pandemic..." 
                 imageUrl="/post/eportfolio/the-road-first-heard-by/spatial-audio-apple.jpg"
-                pageUrl="/eportfolio/the-road-first-heard-by"
+                // pageUrl="/eportfolio/the-road-first-heard-by"
+                pageUrl="https://blogs.danielhou.me/posts/the-road-first-heard-by"
               />
             </div>
             <p id="p3-intro">
@@ -82,7 +83,8 @@ export default function EPortfolio() {
                 title="A Pure Pursuit" 
                 description="As senior year dawned, my days were colored with a mix of hands-on tinkering and devouring literature on control theories..." 
                 imageUrl="/post/eportfolio/a-pure-pursuit/a-pure-pursuit-1.jpg"
-                pageUrl="/eportfolio/a-pure-pursuit"
+                // pageUrl="/eportfolio/a-pure-pursuit"
+                pageUrl="https://blogs.danielhou.me/posts/a-pure-pursuit"
               />
             </div>
 
@@ -103,7 +105,8 @@ export default function EPortfolio() {
                 title="A Mission is All You Need" 
                 description="Arriving at Michigan Engineering was not just a geographical shift for me, but an elevation in my engineering ethos..." 
                 imageUrl="/post/eportfolio/a-mission-is-all-you-need/Obsidian-sc.jpg"
-                pageUrl="/eportfolio/a-mission-is-all-you-need"
+                // pageUrl="/eportfolio/a-mission-is-all-you-need"
+                pageUrl="https://blogs.danielhou.me/posts/a-mission"
               />
             </div>
 

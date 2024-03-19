@@ -3,25 +3,9 @@ import { SkillCard } from '@/components/cards'
 import Link from 'next/link'
 
 
-const learningList: [string, string][] = [
-  ["Robot Operating System (ROS)", "https://ros.org"],
-  ["Qt", "https://qt.org"]
-]
-
-
-const experienceList: [string, string][] = [
-  ["C/C++", "https://ros.org"],
-  ["Qt", "https://qt.org"]
-]
-
-
-
-
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between">
-      <link rel="icon" href="/favicon.ico" sizes="any" />
-      
+    <div>
       <div id="home" className="min-h-screen">
         <div className="relative flex items-center space-y-8 flex-col lg:flex-row lg:space-y-0 justify-center py-16">
 
@@ -48,33 +32,33 @@ export default function Home() {
           />
           <SectionButton 
             title="Academics" 
-            description="See my Academic Record."
+            description="See my academic record!"
             link="/academics"
           />
 
           <SectionButton 
             title="Research" 
-            description="Browse my current and past research/projects."
+            description="Explore my research, work, and course projects!"
             link="/research"
           />
 
-          <SectionButton 
-            title="ePortfolio" 
-            description="ePortfolio for U-M CoE Honors Program!"
-            link="/eportfolio" 
-          />
+          {/* <SectionButton 
+            title="Work" 
+            description="See my work experiences"
+            link="/work"
+          /> */}
           
-          {/* 
+          
           <SectionButton 
             title="Blogs" 
             description="Explore my personal blogs!"
-            link="/blogs"
+            link="https://blogs.danielhou.me/"
           />
-          */}
-          
+         
+                    
           {/* 
           <SectionButton 
-            title="Art" 
+            title="Hobbyst Me" 
             description="Read about my hobbies :)"
             link="/art"
           />
@@ -84,6 +68,12 @@ export default function Home() {
             title="Contacts" 
             description="Connnect me on LinkedIn, Github, or via e-mail!"
             link="/#contacts"
+          />
+
+          <SectionButton 
+            title="MPortfolio" 
+            description="MPortfolio for U-M CoE Honors"
+            link="/eportfolio" 
           />
     
         </div>
@@ -118,22 +108,25 @@ export default function Home() {
               <SkillCard title="Python" iconFile="/index/icons/python.svg"/>
               <SkillCard title="Typescript" iconFile="/index/icons/typescript.svg"/>
               
-              <SkillCard title="Django" iconFile="/index/icons/django.svg"/>
               <SkillCard title="Numpy" iconFile="/index/icons/numpy.svg"/>
-              <SkillCard title="Next.js" iconFile="/index/icons/nextjs.svg"/>
-              
+              <SkillCard title="PyTorch" iconFile="/index/icons/pytorch.svg"/>
+              <SkillCard title="OpenCV" iconFile="/index/icons/opencv.svg"/>
+
               <SkillCard title="ROS" iconFile="/index/icons/ros.svg"/>
               <SkillCard title="Docker" iconFile="/index/icons/docker.svg"/>
               <SkillCard title="Linux Systems" iconFile="/index/icons/linux.svg"/>
+
+              <SkillCard title="Arduino" iconFile="/index/icons/arduino.svg"/>
+              <SkillCard title="Raspberry Pi" iconFile="/index/icons/rpi.png"/>
+            
             </div>
 
 
             <h2 className="pt-12 text-bold text-xl">I am Learning: </h2>
 
             <div className="flex flex-col grid justify-center sm:grid-cols-2 md:grid-cols-3 gap-8 py-6">
-              <SkillCard title="PyTorch" iconFile="/index/icons/pytorch.svg"/>
-              <SkillCard title="Hugging Face Transformers" iconFile="/index/icons/huggingface.svg"/>
-              <SkillCard title="OpenCV" iconFile="/index/icons/opencv.svg"/>
+              {/* <SkillCard title="PyTorch" iconFile="/index/icons/pytorch.svg"/>
+              <SkillCard title="Hugging Face Transformers" iconFile="/index/icons/huggingface.svg"/> */}
 
               <SkillCard title="Convolutional Neural Nets" iconFile="/index/icons/machine-learning.svg"/>
               <SkillCard title="Reinforcement Learning" iconFile="/index/icons/machine-learning.svg"/>
@@ -168,6 +161,6 @@ export default function Home() {
         </div>
 
       </div>
-    </main>
+    </div>
   )
 }

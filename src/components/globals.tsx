@@ -13,7 +13,7 @@ export function NavButton({ title, href }: {title: string;href: string;}) {
   return (
     <Link
       href={href}
-      className="ml-4 px-3 py-2 rounded opacity-0
+      className="ml-4 px-3 py-2 rounded opacity-0 text-sm
         transition-all duration-200 ease-in-out
           group-hover:opacity-100 
           hover:bg-neutral-400/20 hover:dark:bg-neutral-200/20 active:bg-gray-600/30 active:dark:bg-neutral-400/40
@@ -38,13 +38,14 @@ export function Navbar() {
 
         <div className="flex items-center justify-end space-x-4">
         <NavButton title="Home" href="/" />
-          <NavButton title="About" href="/#about-me" />
+          {/* <NavButton title="About" href="/#about-me" /> */}
           <NavButton title="Academics" href="/academics" />
           <NavButton title="Research" href="/research" />
-          {/* <NavButton title="ePortfolio" href="/eportfolio" /> */}
-          {/*<NavButton title="Blogs" href="/blogs" />*/}
-          {/*<NavButton title="Art" href="/art" />*/}
-          <NavButton title="Contacts" href="/#contacts" />
+          {/* <NavButton title="Work" href="/work" /> */}
+          <NavButton title="MPortfolio" href="/eportfolio" />
+          <NavButton title="Blogs" href="https://blogs.danielhou.me" />
+          {/* <NavButton title="Art" href="/art" /> */}
+          {/* <NavButton title="Contacts" href="/#contacts" /> */}
         </div>
       </div>
     </div>
@@ -55,18 +56,12 @@ export function Footer() {
   return (
     <div className="w-full border-t py-4 h-16 bg-gray-100 dark:bg-gray-800">
       <div className="text-center text-sm text-gray-600 dark:text-gray-100">
-          <p>2023 &copy; Huaidian (Daniel) Hou all rights reserved.</p>
+          <p>2023-2024 &copy; Huaidian (Daniel) Hou all rights reserved.</p>
 
           <div className="flex flex-row gap-8 justify-center">
             <Link className="text-blue-600 dark:text-blue-300 underline" href="/acknowledgement">Acknowledgements</Link>
-            <Link className="text-blue-600 dark:text-blue-300 underline" href="/use_component">Want to use my React components?</Link>
           </div>
       </div>
     </div>
   );
-}
-
-
-export function Credits({title, link, type}: {title: string, link: string, type: number}) {
-  
 }

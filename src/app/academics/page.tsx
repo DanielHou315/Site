@@ -1,15 +1,15 @@
 import { CourseCard } from "@/components/cards";
 import { CenterText } from '@components/styling';
 import { TextButton,SectionButton } from "@/components/buttons";
+import { H1Text } from "@components/styling";
 
 export default function AcademicsPage() {
   return (
     <div className="min-h-screen items-center justify-between">
-      <h1 className="self-center text-6xl font-shui text-center dark:text-white border-b p-8">
-        Academics
-      </h1>
+      
+      <H1Text text="Academic" font="shui" />
 
-      <h2 className="text-xl font-bold text-center p-4"> Undergraduate Education </h2>
+      <h2 className="text-xl font-bold text-center p-4 pt-12"> Undergraduate Education </h2>
       <div className="items-center justify-center pb-36">
         <CenterText leftText="Institution" rightText="University of Michigan"/>
         <CenterText leftText="Years" rightText="August 2022 - Present (Sophomore)"/>
@@ -60,7 +60,7 @@ export default function AcademicsPage() {
       </div>
 
 
-      <h2 className="text-xl font-bold text-center p-4"> High School Education </h2>
+      <h2 className="text-xl font-bold text-center p-4 border-t"> High School Education </h2>
       <div className="items-center justify-center pb-36">
         <CenterText leftText="Institution" rightText="The Haverford School"/>
         <CenterText leftText="Years" rightText="August 2018 - May 2022 (Graduated)"/>

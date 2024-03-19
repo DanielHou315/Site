@@ -1,10 +1,11 @@
+import { H1Text } from "@/components/styling"
 import { ExternalButton } from "@components/buttons"
 
 export default function Acknowledgement() {
   return (
     <div className="min-h-screen pt-24">
 
-        <h1 className="text-center text-4xl">Acknowledgement</h1>
+      <H1Text text="Acknowledgement" font="shui" />
 
         <div>
           <p className="py-4 text-center">This website is not possible without these awesome technologies and resources: </p>
